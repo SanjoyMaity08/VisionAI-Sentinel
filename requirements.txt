@@ -1,0 +1,5 @@
+ultralytics
+opencv-python
+requests
+easyocr
+clip @ https://github.com/ultralytics/CLIP/archive/7ffa84b3bfa40c42ecc1c77147a855e69cb2dd40.zip
