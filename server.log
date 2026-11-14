@@ -1,0 +1,254 @@
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 3.1s.
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 3.2s.
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 3.3s.
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 9.5s.
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 8.3s.
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\ao\nn\quantized\dynamic\modules\rnn.py:162: UserWarning: torch.quantize_per_tensor, torch.quantize_per_channel and other quantized tensor creation functions that produce tensors with dtype torch.quint8, torch.qint8, and torch.qint32 are deprecated and will be removed in a future PyTorch release. Please see https://github.com/pytorch/pytorch/issues/184982 for more information. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\aten\src\ATen\quantized\Quantizer.cpp:116.)
+  w_ih = torch.quantize_per_tensor(
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 7.4s.
+[ WARN:0@130.629] global cap.cpp:477 cv::VideoCapture::open VIDEOIO(DSHOW): backend is generally available but can't be used to capture by index
+[ WARN:0@130.843] global cap.cpp:477 cv::VideoCapture::open VIDEOIO(MSMF): backend is generally available but can't be used to capture by index
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+
+[Camera Worker] Initializing camera 1...
+[Camera Worker] Trying camera 1 via DirectShow...
+[Camera Worker] Trying camera 1 via Media Foundation...
+[Camera Worker] Trying camera 0 via DirectShow...
+[Emergency Pose] Pose model ready; scanning at low rate for possible falls and aggressive contact.
+[Camera Worker] Camera 0 detected via DirectShow: 1280x720
+
+[VIOLATION CAPTURED] PPE SAFETY VEST VIOLATION - Recording 10s clip for 3-minute dispatch...
+[Open Vocabulary AI] Ready with 41 searchable object labels.
+[Camera Control] Stop requested over HTTP from 127.0.0.1 (UA: curl/8.17.0, Referer: -).
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 6.1s.
+[ WARN:0@62.933] global cap.cpp:477 cv::VideoCapture::open VIDEOIO(DSHOW): backend is generally available but can't be used to capture by index
+[ WARN:0@63.083] global cap.cpp:477 cv::VideoCapture::open VIDEOIO(MSMF): backend is generally available but can't be used to capture by index
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+
+[Camera Worker] Initializing camera 1...
+[Camera Worker] Trying camera 1 via DirectShow...
+[Camera Worker] Trying camera 1 via Media Foundation...
+[Camera Worker] Trying camera 0 via DirectShow...
+[Emergency Pose] Pose model ready; scanning at low rate for possible falls and aggressive contact.
+[Camera Worker] Camera 0 detected via DirectShow: 1280x720
+
+[VIOLATION CAPTURED] MACHINE DANGER PERIMETER BREACH - Recording 10s clip for 3-minute dispatch...
+[Open Vocabulary AI] Ready with 41 searchable object labels.
+[CLIP READY] 10-second video saved: clip_20261111_214446_machine_danger_perimeter.mp4
+
+[TELEGRAM QUIET] 'Machine Danger Perimeter Breach' saved as clip_20261111_214446_machine_danger_perimeter.mp4; non-critical events are not sent to the bot.
+
+[VIOLATION CAPTURED] MACHINE DANGER PERIMETER BREACH - Recording 10s clip for 3-minute dispatch...
+[Camera Control] Stop requested over HTTP from 127.0.0.1 (UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/15, Referer: http://127.0.0.1:8080/).
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\ao\nn\quantized\dynamic\modules\rnn.py:162: UserWarning: torch.quantize_per_tensor, torch.quantize_per_channel and other quantized tensor creation functions that produce tensors with dtype torch.quint8, torch.qint8, and torch.qint32 are deprecated and will be removed in a future PyTorch release. Please see https://github.com/pytorch/pytorch/issues/184982 for more information. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\aten\src\ATen\quantized\Quantizer.cpp:116.)
+  w_ih = torch.quantize_per_tensor(
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+[Camera Worker] Camera released cleanly.
+
+[CLIENT TELEGRAM MESSAGE RECEIVED] "Hello"
+
+[TWO-WAY AI TELEGRAM] Active HUD search target set to: cell phone
+
+[TWO-WAY AUDIT LOGGED] TELEGRAM OBJECT RETRIEVAL: Client searched 'Hello'. Found 'Cell Phone' (Middle Left Area (X: 290, Y: 334)).
+
+[Camera Worker] Initializing camera 0...
+[Camera Worker] Trying camera 0 via DirectShow...
+[Camera Worker] Camera 0 detected via DirectShow: 1280x720
+[CLIP READY] 10-second video saved: clip_20261111_215203_machine_danger_perimeter.mp4
+
+
+[TWO-WAY AUDIT LOGGED] CAMERA EMERGENCY: CRITICAL EMERGENCY - SUDDEN FALL DETECTED: CRITICAL EMERGENCY: A person suddenly collapsed and fell to the floor. Possible medical emergency - siren activated and the security team has been alerted.
+[Emergency Telegram Alert] Delivered: CRITICAL EMERGENCY - SUDDEN FALL DETECTED
+
+[TWO-WAY AUDIT LOGGED] CAMERA EMERGENCY: HEALTH WATCH - PERSON SLEEPING CONDITION: HEALTH EMERGENCY: A person has been lying motionless on the floor. Verify consciousness and call for help immediately.
+[USB SPEAKER VOICE] Announcing: "Emergency. CRITICAL EMERGENCY - SUDDEN FALL DETECTED detected. Please verify the scene immediately."
+[Emergency Telegram Alert] Delivered: HEALTH WATCH - PERSON SLEEPING CONDITION
+[USB SPEAKER VOICE] Announcing: "Emergency. HEALTH WATCH - PERSON SLEEPING CONDITION detected. Please verify the scene immediately."
+[Camera Control] Stop requested over HTTP from 127.0.0.1 (UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/15, Referer: http://127.0.0.1:8080/).
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 4.0s.
+[ WARN:0@274.964] global cap.cpp:477 cv::VideoCapture::open VIDEOIO(DSHOW): backend is generally available but can't be used to capture by index
+[ WARN:0@275.029] global cap.cpp:477 cv::VideoCapture::open VIDEOIO(MSMF): backend is generally available but can't be used to capture by index
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+
+[Camera Worker] Initializing camera 1...
+[Camera Worker] Trying camera 1 via DirectShow...
+[Camera Worker] Trying camera 1 via Media Foundation...
+[Camera Worker] Trying camera 0 via DirectShow...
+[Emergency Pose] Pose model ready; scanning at low rate for possible falls and aggressive contact.
+[Camera Worker] Camera 0 detected via DirectShow: 1280x720
+
+[VIOLATION CAPTURED] MACHINE DANGER PERIMETER BREACH - Recording 10s clip for 3-minute dispatch...
+[Open Vocabulary AI] Ready with 41 searchable object labels.
+[Camera Control] Stop requested over HTTP from 127.0.0.1 (UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/15, Referer: http://127.0.0.1:8080/).
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 3.2s.
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\jit\_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+
+[Camera Worker] Initializing camera 0...
+[Camera Worker] Trying camera 0 via DirectShow...
+[Emergency Pose] Pose model ready; scanning at low rate for possible falls and aggressive contact.
+[Camera Worker] Camera 0 detected via DirectShow: 1280x720
+
+[VIOLATION CAPTURED] MACHINE DANGER PERIMETER BREACH - Recording 10s clip for 3-minute dispatch...
+[Reference Photo AI] Ready with 14 photos and 12 verified object names.
+[Open Vocabulary AI] Ready with 49 searchable object labels.
+[Camera Control] Stop requested over HTTP from 127.0.0.1 (UA: Python-urllib/3.14, Referer: -).
+=================================================================
+   VISIONAI SENTINEL - CCMS COMMAND CENTER
+=================================================================
+Loading server modules...
+Server modules loaded. Starting dashboard...
+[Telegram Two-Way AI] Listener active. Ready for bidirectional AI queries and commands.
+Initializing VisionAI Sentinel Command Center...
+=================================================================
+   SERVER READY - VISIONAI SENTINEL COMMAND CENTER
+=================================================================
+   Local Access:    http://127.0.0.1:8080
+   Mobile/Network:  http://10.167.12.38:8080
+   Dashboard is now LIVE and ready!
+=================================================================
+[Model Loader] Warming the AI stack (first run can take a few minutes)...
+[Model Loader] AI detection ready in 3.0s.
