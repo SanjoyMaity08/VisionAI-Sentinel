@@ -1,0 +1,968 @@
+{
+  "backpack": {
+    "label": "backpack",
+    "display_name": "Backpack / Book Bag",
+    "last_seen_time": "2026-11-03 11:45:26",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Unsupported stale link: associated clip shows a sleeping-person incident",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified backpack detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465098
+  },
+  "cell phone": {
+    "label": "cell phone",
+    "display_name": "Cell Phone",
+    "last_seen_time": "2026-11-12 11:56:24",
+    "confidence": "72%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      111,
+      159,
+      269,
+      348
+    ],
+    "center": [
+      190,
+      253
+    ],
+    "location_desc": "Middle Left Area (X: 190, Y: 253)",
+    "video_clip": "object_cell_phone_1794464750095.mp4",
+    "snapshot_file": "snap_obj_cell_phone.jpg",
+    "clip_valid_after": 1794464432.431675
+  },
+  "book": {
+    "label": "book",
+    "display_name": "Book",
+    "last_seen_time": "2026-11-03 17:19:07",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified book detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence book match",
+    "clip_valid_after": 1794584664.9465299
+  },
+  "scissors": {
+    "label": "scissors",
+    "display_name": "Scissors",
+    "last_seen_time": "2026-11-03 19:08:56",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence scissors match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified scissors detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465315
+  },
+  "bottle": {
+    "label": "bottle",
+    "display_name": "Bottle",
+    "last_seen_time": "2026-11-12 14:33:02",
+    "confidence": "79%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      681,
+      183,
+      789,
+      366
+    ],
+    "center": [
+      735,
+      274
+    ],
+    "location_desc": "Middle Right Area (X: 735, Y: 274)",
+    "video_clip": "object_bottle_1794474171989.mp4",
+    "snapshot_file": "snap_obj_bottle.jpg",
+    "clip_valid_after": 1793769999.80546
+  },
+  "laptop": {
+    "label": "laptop",
+    "display_name": "Laptop",
+    "last_seen_time": "2026-11-12 14:08:32",
+    "confidence": "60%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      425,
+      317,
+      596,
+      540
+    ],
+    "center": [
+      510,
+      428
+    ],
+    "location_desc": "Lower Center Area (X: 510, Y: 428)",
+    "video_clip": "object_laptop_1794472622174.mp4",
+    "snapshot_file": "snap_obj_laptop.jpg",
+    "clip_valid_after": 1794470591.6527836
+  },
+  "tv": {
+    "label": "tv",
+    "display_name": "Tv",
+    "last_seen_time": "2026-11-04 10:56:34",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Ambiguous display class; use verified monitor or computer labels",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified tv detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.946533
+  },
+  "keyboard": {
+    "label": "keyboard",
+    "display_name": "Keyboard",
+    "last_seen_time": "2026-11-05 15:33:13",
+    "confidence": "81%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      707,
+      481,
+      831,
+      531
+    ],
+    "center": [
+      769,
+      506
+    ],
+    "location_desc": "Lower Center Area (X: 769, Y: 506)",
+    "video_clip": "object_keyboard_1793776748594.mp4",
+    "snapshot_file": "snap_obj_keyboard.jpg",
+    "clip_valid_after": 1793769999.8054745
+  },
+  "mouse": {
+    "label": "mouse",
+    "display_name": "Mouse",
+    "last_seen_time": "2026-11-05 15:33:22",
+    "confidence": "71%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      188,
+      500,
+      242,
+      534
+    ],
+    "center": [
+      215,
+      517
+    ],
+    "location_desc": "Lower Left Area (X: 215, Y: 517)",
+    "video_clip": "object_mouse_1793872999663.mp4",
+    "snapshot_file": "snap_obj_mouse.jpg"
+  },
+  "cat": {
+    "label": "cat",
+    "display_name": "Cat",
+    "last_seen_time": "2026-11-03 18:50:39",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence cat match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified cat detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465337
+  },
+  "dog": {
+    "label": "dog",
+    "display_name": "Dog",
+    "last_seen_time": "2026-11-10 21:35:29",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Mislabeled clip: a person was misclassified as dog (manual review)",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified dog detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465344
+  },
+  "remote": {
+    "label": "remote",
+    "display_name": "Remote",
+    "last_seen_time": "2026-11-11 21:45:53",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Incorrect name: reference photos identify this object as Adaptor",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified remote detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465349
+  },
+  "donut": {
+    "label": "donut",
+    "display_name": "Donut",
+    "last_seen_time": "2026-11-03 17:54:58",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified donut detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence donut match",
+    "clip_valid_after": 1794584664.946535
+  },
+  "hot dog": {
+    "label": "hot dog",
+    "display_name": "Hot Dog",
+    "last_seen_time": "2026-11-12 13:58:25",
+    "confidence": "59%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      202,
+      90,
+      329,
+      508
+    ],
+    "center": [
+      265,
+      299
+    ],
+    "location_desc": "Middle Left Area (X: 265, Y: 299)",
+    "video_clip": "",
+    "snapshot_file": "snap_obj_hot_dog.jpg",
+    "clip_valid_after": 1794470591.652786
+  },
+  "cup": {
+    "label": "cup",
+    "display_name": "Cup",
+    "last_seen_time": "2026-11-12 11:55:21",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Manual review: adaptor was incorrectly named cup",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified cup detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465356
+  },
+  "chair": {
+    "label": "chair",
+    "display_name": "Chair",
+    "last_seen_time": "2026-11-03 17:45:15",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified chair detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence chair match",
+    "clip_valid_after": 1794584664.9465363
+  },
+  "pen": {
+    "label": "pen",
+    "display_name": "Pen",
+    "last_seen_time": "2026-11-03 19:08:18",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence pen match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified pen detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465365
+  },
+  "pencil": {
+    "label": "pencil",
+    "display_name": "Pencil",
+    "last_seen_time": "2026-11-03 19:08:18",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence pencil match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified pencil detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465368
+  },
+  "camera": {
+    "label": "camera",
+    "display_name": "Camera",
+    "last_seen_time": "2026-11-03 17:59:54",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Unsupported stale capture: no camera is identifiable in the associated clip",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified camera detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465373
+  },
+  "keys": {
+    "label": "keys",
+    "display_name": "Keys",
+    "last_seen_time": "2026-11-03 18:27:20",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Unsupported stale capture: no keys are identifiable in the associated clip",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified keys detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465377
+  },
+  "tie": {
+    "label": "tie",
+    "display_name": "Tie",
+    "last_seen_time": "2026-11-03 17:56:50",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified tie detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence tie match",
+    "clip_valid_after": 1794584664.9465384
+  },
+  "cow": {
+    "label": "cow",
+    "display_name": "Cow",
+    "last_seen_time": "2026-11-03 14:49:25",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified cow detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence cow match",
+    "clip_valid_after": 1794584664.9465387
+  },
+  "toilet": {
+    "label": "toilet",
+    "display_name": "Toilet",
+    "last_seen_time": "2026-11-11 21:46:00",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Incorrect name: manual review found only a blank wall",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified toilet detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465394
+  },
+  "frisbee": {
+    "label": "frisbee",
+    "display_name": "Frisbee",
+    "last_seen_time": "2026-11-03 17:05:44",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified frisbee detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence frisbee match",
+    "clip_valid_after": 1794584664.94654
+  },
+  "toothbrush": {
+    "label": "toothbrush",
+    "display_name": "Toothbrush",
+    "last_seen_time": "2026-11-03 18:28:10",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified toothbrush detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence toothbrush match",
+    "clip_valid_after": 1794584664.9465404
+  },
+  "bowl": {
+    "label": "bowl",
+    "display_name": "Bowl",
+    "last_seen_time": "2026-11-03 14:51:11",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified bowl detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence bowl match",
+    "clip_valid_after": 1794584664.9465408
+  },
+  "surfboard": {
+    "label": "surfboard",
+    "display_name": "Surfboard",
+    "last_seen_time": "2026-11-03 15:24:20",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified surfboard detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence surfboard match",
+    "clip_valid_after": 1794584664.9465413
+  },
+  "bed": {
+    "label": "bed",
+    "display_name": "Bed",
+    "last_seen_time": "2026-11-12 14:05:11",
+    "confidence": "77%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      0,
+      189,
+      624,
+      538
+    ],
+    "center": [
+      312,
+      363
+    ],
+    "location_desc": "Lower Left Area (X: 312, Y: 363)",
+    "video_clip": "object_bed_1794472507045.mp4",
+    "snapshot_file": "snap_obj_bed.jpg",
+    "clip_valid_after": 1794470591.6527913
+  },
+  "elephant": {
+    "label": "elephant",
+    "display_name": "Elephant",
+    "last_seen_time": "2026-11-03 16:33:26",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified elephant detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence elephant match",
+    "clip_valid_after": 1794584664.9465418
+  },
+  "baseball bat": {
+    "label": "baseball bat",
+    "display_name": "Baseball Bat",
+    "last_seen_time": "2026-11-03 16:56:35",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified baseball bat detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence baseball bat match",
+    "clip_valid_after": 1794584664.9465423
+  },
+  "suitcase": {
+    "label": "suitcase",
+    "display_name": "Suitcase",
+    "last_seen_time": "2026-11-03 17:19:08",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified suitcase detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence suitcase match",
+    "clip_valid_after": 1794584664.9465432
+  },
+  "car": {
+    "label": "car",
+    "display_name": "Car",
+    "last_seen_time": "2026-11-03 17:18:57",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified car detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence car match",
+    "clip_valid_after": 1794584664.9465435
+  },
+  "refrigerator": {
+    "label": "refrigerator",
+    "display_name": "Refrigerator",
+    "last_seen_time": "2026-11-03 18:51:20",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence refrigerator match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified refrigerator detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.946544
+  },
+  "microwave": {
+    "label": "microwave",
+    "display_name": "Microwave",
+    "last_seen_time": "2026-11-03 17:23:52",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified microwave detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence microwave match",
+    "clip_valid_after": 1794584664.9465442
+  },
+  "sink": {
+    "label": "sink",
+    "display_name": "Sink",
+    "last_seen_time": "2026-11-03 17:18:59",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified sink detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence sink match",
+    "clip_valid_after": 1794584664.9465446
+  },
+  "dining table": {
+    "label": "dining table",
+    "display_name": "Dining Table",
+    "last_seen_time": "2026-11-03 17:18:53",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified dining table detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence dining table match",
+    "clip_valid_after": 1794584664.946545
+  },
+  "train": {
+    "label": "train",
+    "display_name": "Train",
+    "last_seen_time": "2026-11-03 19:05:37",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence train match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified train detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465454
+  },
+  "teddy bear": {
+    "label": "teddy bear",
+    "display_name": "Teddy Bear",
+    "last_seen_time": "2026-11-03 17:54:48",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified teddy bear detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence teddy bear match",
+    "clip_valid_after": 1794584664.9465458
+  },
+  "bus": {
+    "label": "bus",
+    "display_name": "Bus",
+    "last_seen_time": "2026-11-03 17:59:55",
+    "confidence": "Unverified",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified bus detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence bus match",
+    "clip_valid_after": 1794584664.9465463
+  },
+  "hair drier": {
+    "label": "hair drier",
+    "display_name": "Hair Drier",
+    "last_seen_time": "2026-11-11 21:46:40",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Incorrect name: supplied reference identifies this as Good Night Machine",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified hair drier detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465473
+  },
+  "good night machine": {
+    "label": "good night machine",
+    "display_name": "Good Night Machine",
+    "last_seen_time": "2026-11-12 14:06:33",
+    "confidence": "70%",
+    "detection_verified": true,
+    "detection_source": "Reference Photo AI",
+    "bbox": [
+      378,
+      68,
+      560,
+      157
+    ],
+    "center": [
+      469,
+      112
+    ],
+    "location_desc": "Upper Center Area (X: 469, Y: 112)",
+    "video_clip": "object_good_night_machine_1794472436019.mp4",
+    "snapshot_file": "snap_obj_good_night_machine.jpg",
+    "clip_valid_after": 1794463445.113242
+  },
+  "computer monitor": {
+    "label": "computer monitor",
+    "display_name": "Computer Monitor",
+    "last_seen_time": "2026-11-04 11:05:34",
+    "confidence": "65%",
+    "detection_verified": true,
+    "detection_source": "Open Vocabulary AI",
+    "bbox": [
+      0,
+      405,
+      291,
+      678
+    ],
+    "center": [
+      145,
+      541
+    ],
+    "location_desc": "Lower Left Area (X: 145, Y: 541)",
+    "video_clip": "",
+    "snapshot_file": "snap_obj_computer_monitor.jpg",
+    "clip_valid_after": 1793769999.805586
+  },
+  "box": {
+    "label": "box",
+    "display_name": "Box",
+    "last_seen_time": "2026-11-04 10:55:36",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence box match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified box detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465477
+  },
+  "computer mouse": {
+    "label": "computer mouse",
+    "display_name": "Computer Mouse",
+    "last_seen_time": "2026-11-05 15:33:47",
+    "confidence": "84%",
+    "detection_verified": true,
+    "detection_source": "Open Vocabulary AI",
+    "bbox": [
+      187,
+      499,
+      241,
+      535
+    ],
+    "center": [
+      214,
+      517
+    ],
+    "location_desc": "Lower Left Area (X: 214, Y: 517)",
+    "video_clip": "object_computer_mouse_1793872994503.mp4",
+    "snapshot_file": "snap_obj_computer_mouse.jpg",
+    "clip_valid_after": 1793769999.8055909
+  },
+  "hat": {
+    "label": "hat",
+    "display_name": "Hat",
+    "last_seen_time": "2026-11-03 19:05:42",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Quarantined low-confidence hat match",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified hat detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465485
+  },
+  "tissue box": {
+    "label": "tissue box",
+    "display_name": "Tissue Box",
+    "last_seen_time": "2026-11-12 14:04:31",
+    "confidence": "77%",
+    "detection_verified": true,
+    "detection_source": "Open Vocabulary AI",
+    "bbox": [
+      111,
+      348,
+      300,
+      463
+    ],
+    "center": [
+      205,
+      405
+    ],
+    "location_desc": "Lower Left Area (X: 205, Y: 405)",
+    "video_clip": "object_tissue_box_1794472478687.mp4",
+    "snapshot_file": "snap_obj_tissue_box.jpg",
+    "clip_valid_after": 1794470591.6527972
+  },
+  "computer tower": {
+    "label": "computer tower",
+    "display_name": "Computer Tower",
+    "last_seen_time": "2026-11-05 15:33:47",
+    "confidence": "82%",
+    "detection_verified": true,
+    "detection_source": "Open Vocabulary AI",
+    "bbox": [
+      1072,
+      280,
+      1274,
+      468
+    ],
+    "center": [
+      1173,
+      374
+    ],
+    "location_desc": "Middle Right Area (X: 1173, Y: 374)",
+    "video_clip": "object_computer_tower_1793872993281.mp4",
+    "snapshot_file": "snap_obj_computer_tower.jpg"
+  },
+  "smartphone": {
+    "label": "smartphone",
+    "display_name": "Smartphone",
+    "last_seen_time": "2026-11-12 14:08:37",
+    "confidence": "66%",
+    "detection_verified": true,
+    "detection_source": "Open Vocabulary AI",
+    "bbox": [
+      424,
+      319,
+      600,
+      540
+    ],
+    "center": [
+      512,
+      429
+    ],
+    "location_desc": "Lower Center Area (X: 512, Y: 429)",
+    "video_clip": "object_smartphone_1794472668597.mp4",
+    "snapshot_file": "snap_obj_smartphone.jpg",
+    "clip_valid_after": 1794470591.6527977
+  },
+  "airplane": {
+    "label": "airplane",
+    "display_name": "Airplane",
+    "last_seen_time": "2026-11-12 10:51:32",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Incorrect name: manual review identified this object as Fan",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified airplane detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465494
+  },
+  "umbrella": {
+    "label": "umbrella",
+    "display_name": "Umbrella",
+    "last_seen_time": "2026-11-11 21:52:36",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Incorrect name: supplied reference identifies this as Towel",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified umbrella detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.9465501
+  },
+  "towel": {
+    "label": "towel",
+    "display_name": "Towel",
+    "last_seen_time": "2026-11-12 14:30:37",
+    "confidence": "76%",
+    "detection_verified": true,
+    "detection_source": "Reference Photo AI",
+    "bbox": [
+      61,
+      41,
+      558,
+      350
+    ],
+    "center": [
+      309,
+      195
+    ],
+    "location_desc": "Middle Left Area (X: 309, Y: 195)",
+    "video_clip": "object_towel_1794474039419.mp4",
+    "snapshot_file": "snap_obj_towel.jpg",
+    "clip_valid_after": 1794463445.113242
+  },
+  "adaptor": {
+    "label": "adaptor",
+    "display_name": "Adaptor",
+    "last_seen_time": "2026-11-12 14:30:48",
+    "confidence": "77%",
+    "detection_verified": true,
+    "detection_source": "Reference Photo AI",
+    "bbox": [
+      718,
+      129,
+      818,
+      315
+    ],
+    "center": [
+      768,
+      222
+    ],
+    "location_desc": "Middle Right Area (X: 768, Y: 222)",
+    "video_clip": "object_adaptor_1794473989870.mp4",
+    "snapshot_file": "snap_obj_adaptor.jpg",
+    "clip_valid_after": 1794463445.113242
+  },
+  "fan": {
+    "label": "fan",
+    "display_name": "Fan",
+    "last_seen_time": "2026-11-12 10:51:32",
+    "confidence": "Reviewed",
+    "detection_verified": true,
+    "detection_source": "Manual review using supplied reference",
+    "bbox": [
+      245,
+      45,
+      590,
+      385
+    ],
+    "center": [
+      417,
+      215
+    ],
+    "location_desc": "Middle Center Area (X: 417, Y: 215)",
+    "video_clip": "object_fan_reviewed_20261112.mp4",
+    "snapshot_file": "snap_obj_fan.jpg",
+    "clip_valid_after": 1794463445.113242
+  },
+  "vase": {
+    "label": "vase",
+    "display_name": "Vase",
+    "last_seen_time": "2026-11-12 11:56:07",
+    "confidence": "Unverified",
+    "detection_verified": false,
+    "detection_source": "Manual review: bottle was incorrectly named vase",
+    "bbox": [],
+    "center": [],
+    "location_desc": "No verified vase detection",
+    "video_clip": "",
+    "snapshot_file": "",
+    "clip_valid_after": 1794584664.946551
+  },
+  "skateboard": {
+    "label": "skateboard",
+    "display_name": "Skateboard",
+    "last_seen_time": "2026-11-12 14:30:51",
+    "confidence": "79%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      0,
+      384,
+      165,
+      539
+    ],
+    "center": [
+      82,
+      461
+    ],
+    "location_desc": "Lower Left Area (X: 82, Y: 461)",
+    "video_clip": "object_skateboard_1794473902562.mp4",
+    "snapshot_file": "snap_obj_skateboard.jpg"
+  },
+  "banana": {
+    "label": "banana",
+    "display_name": "Banana",
+    "last_seen_time": "2026-11-12 14:01:26",
+    "confidence": "60%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      704,
+      288,
+      959,
+      539
+    ],
+    "center": [
+      831,
+      413
+    ],
+    "location_desc": "Lower Right Area (X: 831, Y: 413)",
+    "video_clip": "object_banana_1794472274304.mp4",
+    "snapshot_file": "snap_obj_banana.jpg"
+  },
+  "water bottle": {
+    "label": "water bottle",
+    "display_name": "Water Bottle",
+    "last_seen_time": "2026-11-12 14:05:11",
+    "confidence": "75%",
+    "detection_verified": true,
+    "detection_source": "Open Vocabulary AI",
+    "bbox": [
+      478,
+      190,
+      696,
+      539
+    ],
+    "center": [
+      587,
+      364
+    ],
+    "location_desc": "Lower Center Area (X: 587, Y: 364)",
+    "video_clip": "object_water_bottle_1794472391747.mp4",
+    "snapshot_file": "snap_obj_water_bottle.jpg"
+  },
+  "pizza": {
+    "label": "pizza",
+    "display_name": "Pizza",
+    "last_seen_time": "2026-11-12 14:28:00",
+    "confidence": "57%",
+    "detection_verified": true,
+    "detection_source": "YOLO",
+    "bbox": [
+      370,
+      494,
+      550,
+      539
+    ],
+    "center": [
+      460,
+      516
+    ],
+    "location_desc": "Lower Center Area (X: 460, Y: 516)",
+    "video_clip": "",
+    "snapshot_file": "snap_obj_pizza.jpg"
+  }
+}
