@@ -1,101 +1,206 @@
 # VisionAI Sentinel
 
-A local Windows camera-monitoring dashboard with multi-object detection, evidence-based safety screening, searchable incident clips, uploaded-video analysis, and quiet Telegram delivery.
+**AI-Assisted Camera Monitoring & Safety Screening Dashboard**
 
-**Suggested GitHub repository name:** `visionai-sentinel`
+VisionAI Sentinel is a local Windows camera-monitoring dashboard that combines real-time object detection, evidence-based safety screening, incident recording and playback, uploaded-video analysis, and scheduled Telegram delivery of violation clips.
 
-**GitHub About description:**
-
-> AI-assisted camera monitoring dashboard with multi-object detection, 12-second event confirmation, incident playback, uploaded-video screening, and Telegram violation-clip batches every three minutes.
-
-## Status and intended use
-
-This project is a working local pilot, not a certified safety system or a validated commercial surveillance appliance. AI outputs require human review. Do not rely on it as the sole emergency response mechanism, for automatic disciplinary decisions, or for legal traffic enforcement.
-
-The current alert policy applies to the dashboard launched through `app.py`, `start_app.bat`, or `run_web_dashboard.bat`. Older standalone camera-demo scripts in an existing working folder have separate behavior and are not included in the clean dashboard source package.
+> **Project status:** Working local pilot. This is not a certified safety system or a validated commercial surveillance solution. AI detections require human review.
 
 ## Features
 
-- Live USB-camera preview with individual coloured boxes for supported simultaneous object classes.
-- Primary YOLO detection, optional YOLO-World search, and conservative matching against a privately supplied labelled photo library.
-- Object snapshots, object search, and playback links only when an associated clip is available.
-- Local safety radar, visible warning messages, spoken warnings, and siren controls.
-- Continuous-evidence confirmation for eligible live-camera events instead of immediate single-frame violations.
-- Independent incident recordings for different event titles; encoding runs outside the camera inference loop.
-- Browser incident playback and searchable local audit records.
-- Uploaded-video screening for potential helmet issues, plate OCR, red-light crossings, and estimated vehicle speed.
-- A dashboard assistant for supported local commands and optional Telegram command interaction.
-- Optional WhatsApp integration; credential values remain masked in its status response.
+- **Live camera monitoring:** USB-camera preview with simultaneous object detection and colored bounding boxes.
+- **AI object detection:** Primary YOLO detection, optional YOLO-World open-vocabulary detection, and private reference-image matching.
+- **Evidence-based event screening:** Eligible live-camera events require continuous evidence before confirmation.
+- **Incident recording:** Event-specific clips with preceding and follow-up footage.
+- **Incident search and playback:** Searchable local records, object snapshots, and browser-based incident playback.
+- **Uploaded-video analysis:** Screening for possible helmet issues, license-plate OCR, red-light crossings, and estimated vehicle speed.
+- **Local alerts:** Safety radar, warning messages, spoken warnings, and siren controls.
+- **Telegram integration:** Pending violation clips are delivered in batches, with captions.
+- **Dashboard assistant:** Supported local commands and optional Telegram command interaction.
+- **Optional WhatsApp integration:** Separate setup and status support.
 
-## Alert delivery policy
+## System Architecture
 
-```text
-Camera observations
-    -> local CHECKING status while evidence accumulates
-    -> confirmed screening condition + local warning/siren
-    -> save the incident clip
-    -> persistent pending outbox
-    -> next three-minute Telegram batch: each pending clip + its caption
-```
+ text
+USB Camera / Uploaded Video
+            |
+            v
+   Object Detection & Tracking
+            |
+            v
+   Evidence / Event Screening
+            |
+       +----+----+
+       |         |
+       v         v
+ Local Warning  Incident Recording
+       |         |
+       +----+----+
+            |
+            v
+     Persistent Outbox
+            |
+            v
+ Telegram Batch Delivery
 
-- Automatic camera alerts do not send immediate Telegram text messages or immediate clips, including possible falls and raised-arm interactions.
-- Every three minutes, the application attempts delivery of all pending violation clips, each with its own event caption. This is a batch of individual videos, not one combined video.
-- The scheduler runs while the application is open, including when the camera is stopped. Uploaded-video violation clips use the same queue.
-- Empty batches send nothing. A successfully acknowledged clip is removed from the pending queue and is not automatically resent.
-- Failures remain pending for a later three-minute cycle. The outbox and acknowledged filenames are stored locally in `telegram_outbox.json` and survive application restarts. A restarted application begins a new three-minute countdown.
-- Clips finished during an active batch wait for a later batch. Sending many videos can take longer than three minutes; batches do not overlap.
-- A network timeout can occur after Telegram accepts a video but before acknowledgement reaches the application. A retry can then duplicate that video; Telegram does not provide an exactly-once guarantee here.
-- **Send Pending Batch Now** is an explicit manual override. Interactive bot replies and manually requested actions are separate from automatic violation alerts.
-- Informational arrivals, vehicle-bay turnaround, normal speed readings, and plate-only readings do not create automatic Telegram violation messages.
+## Technology Stack
 
-Warnings remain local without Telegram configuration; completed incident clips remain available on disk.
-
-## Live-camera confirmation
-
-| Screening condition | Evidence window | Meaning and limitation |
-| --- | --- | --- |
-| Demo perimeter occupancy | 12 seconds | A matched person remains in the demo zone; actual hazards require site configuration. |
-| Unoccupied desk with queue presence | 12 seconds | No person is seen in the demo desk zone while a matched person remains in the queue zone. |
-| Phone presence at desk | 12 seconds | A detected phone remains inside a person's torso region at the demo desk; this does not prove browsing or addiction. |
-| Queue congestion | 12 seconds | At least two people remain in the demo queue corridor. |
-| Unattended floor object | 12 seconds | A detected object remains near floor level without a nearby detected person; this does not identify a spill or rubbish. |
-| Possible fall | 12 seconds | Visible upright-to-horizontal pose transition followed by sustained matched-person horizontal evidence. |
-| Raised-arm interaction | 12 seconds | Sustained geometry involving the same locally tracked actor and target; aggressive intent is not determined. |
-| Frame-edge dwell | 15 seconds | A matched person remains near the frame edge; nighttime or suspicious intent is not inferred. |
-
-Missing or negative evidence, changed spatial subjects, out-of-order timestamps, and observation gaps over 2.5 seconds reset confirmation. Matching is geometric, not biometric identity recognition; crossing or overlapping people can still cause tracking errors.
-
-Colour-based vest checks, bounding-box posture checks, rapid nearby movement, and inactivity remain local advisory checks rather than proof of violations. A horizontal pose does not diagnose sleeping; the pose detector does not issue a second sleeping alert for a fall episode.
-
-Continuous eligible episodes are latched to reduce repeat alerts. New episodes also respect the existing per-title cooldown. Ordinary object boxes do not wait 12 seconds: event confirmation and object recognition are different operations.
-
-Live incident capture retains up to 12 seconds of preceding evidence plus 3 seconds of follow-up. Playback uses actual timestamps; startup, stopped-camera, or sparse recordings may be shorter. Frames are not repeated to invent a duration. Uploaded-video events retain their separate video-analysis evidence logic; they are not forced to stay true for 12 seconds, which would invalidate brief crossings.
+| Component | Technology |
+|---|---|
+| Object detection | Ultralytics YOLO |
+| Optional open-vocabulary detection | YOLO-World |
+| Pose screening | YOLO Pose |
+| Image-reference matching | CLIP |
+| Computer vision | OpenCV |
+| Deep learning | PyTorch |
+| License-plate OCR | EasyOCR |
+| Backend / dashboard | Python |
+| Messaging | Telegram Bot API |
+| Optional messaging | WhatsApp integration |
 
 ## Requirements
 
-- Windows 64-bit, a working camera, and permission for Python to access it.
-- Python 3.10 or newer, subject to availability of compatible PyTorch/OpenCV dependencies.
-- A speaker for audible warnings; a modern browser for the dashboard.
-- Internet access for initial dependency/model installation and optional Telegram/WhatsApp delivery.
-- Sufficient RAM, disk space, and CPU/GPU resources for the selected models. FPS is hardware- and scene-dependent.
+- Windows 64-bit
+- Python 3.10 or newer (compatible package versions required)
+- USB camera and camera permissions
+- Speaker for audible warnings (optional)
+- Modern web browser
+- Internet access for initial dependency/model downloads and messaging integrations
+- Adequate RAM, disk space, and CPU/GPU resources
 
-The existing installation was tested with Python 3.14.5, Ultralytics 8.4.208, OpenCV 5.0.0.93, PyTorch 2.15.0, torchvision 0.29.2, NumPy 2.5.4, requests 2.34.2, and EasyOCR 1.7.2. This is a tested environment snapshot, not a dependency lockfile or a clean-install certification. CLIP/PyTorch emit TorchScript compatibility warnings on Python 3.14; validate your chosen Python and package versions before deployment.
+## Installation & Quick Start
 
-## Quick start
+### 1. Clone the repository
 
-Open a terminal in the extracted project folder:
+```bash
+git clone https://github.com/YOUR_USERNAME/visionai-sentinel.git
+cd visionai-sentinel
+```
+
+Replace `YOUR_USERNAME` with your GitHub username.
+
+### 2. Create a virtual environment (recommended)
 
 ```bat
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bat
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+```
+
+### 4. Download model weights
+
+```bat
 python download_models.py
+```
+
+### 5. Launch the dashboard
+
+```bat
 python app.py
 ```
 
-Alternatively, use `install_windows.bat`, then `start_app.bat`. The dashboard opens at `http://localhost:8080` by default. Select the correct camera in the dashboard and start it; allow model warm-up before judging reference-object readiness.
+Open the dashboard in your browser:
 
-For an isolated environment, create and activate a virtual environment before installing and launching from the same terminal. The existing batch launchers use Python from PATH; they do not automatically activate a virtual environment.
+**http://localhost:8080**
 
-Optional settings in a Windows command prompt:
+Select the appropriate camera and start monitoring after model warm-up.
+
+### Alternative Windows Setup
+
+You can also use the included scripts:
+
+```bat
+install_windows.bat
+start_app.bat
+```
+
+## Model Weights
+
+Model binaries are intentionally excluded from this repository. Download them after installation:
+
+```bat
+python download_models.py
+```
+
+| Model / File | Purpose |
+|---|---|
+| `yolo26n.pt` | Primary object detection |
+| `yolo11n.pt` | Uploaded-video detection |
+| `yolo26n-pose.pt` | Optional pose-based screening |
+| `yolov8s-worldv2.pt` | Optional open-vocabulary detection |
+| `weights/clip/ViT-B-32.pt` | Optional reference-image matching |
+| `weights/license_plate_yolo11n.pt` | Uploaded-video license-plate detection |
+
+Some features require optional models. Check the dashboard readiness indicators to confirm which capabilities are active.
+
+## Telegram Setup
+
+Run the local setup utility:
+
+bat
+python setup_telegram.py
+
+
+Provide your own Telegram bot token and destination through the setup flow. Start a conversation with your bot before using it.
+
+### Automatic Delivery Policy
+
+- Confirmed automatic camera events are recorded locally first.
+- Pending violation clips are sent in Telegram batches every three minutes while the application is running.
+- Each clip is sent as an individual video with its own caption.
+- Failed deliveries remain pending for a later retry.
+- The outbox persists locally across application restarts.
+- **Send Pending Batch Now** allows manual delivery.
+- Informational readings do not automatically create violation messages.
+
+Telegram delivery is best-effort. Network timeouts can occasionally cause duplicate delivery.
+
+## Optional WhatsApp Setup
+
+```bat
+python setup_whatsapp.py
+```
+
+WhatsApp integration requires its own provider/account configuration. Automatic Telegram batching does not enable automatic WhatsApp delivery.
+
+## Live Event Screening
+
+Eligible live-camera events use continuous evidence confirmation to reduce single-frame false positives.
+
+Examples include:
+
+- Demo perimeter occupancy
+- Queue congestion
+- Phone presence at a demo desk
+- Unattended floor objects
+- Possible fall screening
+- Raised-arm interaction screening
+- Frame-edge dwell
+
+Most configured events use a 12-second evidence window; frame-edge dwell uses 15 seconds.
+
+> These are screening conditions, not proof of unsafe behavior, intent, or identity. Demo zones must be configured and validated for the deployment site.
+
+## Uploaded-Video Screening
+
+The uploaded-video module can screen for:
+
+- Possible helmet issues
+- License-plate detection and OCR
+- Red-light crossing events
+- Estimated vehicle speed
+
+These results are uncalibrated estimates and must not be treated as certified traffic-enforcement measurements.
+
+## Configuration
+
+Optional environment variables can be set in Windows Command Prompt:
 
 ```bat
 set VISIONAI_PORT=8080
@@ -103,97 +208,86 @@ set VISIONAI_NO_BROWSER=1
 python app.py
 ```
 
-The server tries another port if the requested one is occupied; check the startup output for the actual address. Use `create_desktop_shortcut.bat` only after installation and checking the launcher uses your intended Python environment.
+The application may select another port if the requested port is unavailable. Check the startup output for the actual address.
 
-## Models and private references
+Private reference images and metadata belong in the local `reference_objects/` directory. Do not upload private reference images, footage, credentials, or runtime data.
 
-Model binaries and private images are deliberately excluded from this repository. After cloning, fetch every weight file from its official source with:
-
-```bat
-python download_models.py
-```
-
-| Local path | Size (approx.) | Purpose |
-| --- | --- | --- |
-| `yolo26n.pt` | 5 MB | Primary object detection |
-| `yolo11n.pt` | 5 MB | Uploaded-video detection |
-| `yolo26n-pose.pt` | 8 MB | Optional possible-fall and raised-arm pose screening |
-| `yolov8s-worldv2.pt` | 25 MB | Optional open-vocabulary object detection and helmet screening |
-| `weights/clip/ViT-B-32.pt` | 338 MB | Optional private photo-reference matching |
-| `weights/license_plate_yolo11n.pt` | 5 MB | Uploaded-video plate detection (required by that feature) |
-
-Ultralytics models are obtained through the Ultralytics library's official asset download; the CLIP weights through the `clip` package; the plate detector from its pinned public source. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution and licensing. The script skips files that already exist; use `python download_models.py --force` to re-download.
-
-Some Ultralytics model paths may also trigger automatic downloads when missing at startup. Missing optional models or references reduce capabilities; inspect readiness indicators rather than assuming every detector is active.
-
-Private reference metadata belongs in `reference_objects/references.json`. Its entries contain `file`, `label`, and `display_name`, referring to authorised images inside `reference_objects/`. Use accurate, reviewed labels and test against visually similar objects. The supplied user's reference library is not distributed with the repository.
-
-## Uploading to GitHub
-
-The repository ships without model binaries, so no individual file approaches GitHub's upload limits. The largest tracked source file is the dashboard module (`app.py`).
-
-- Use the Git command line (`git add`, `git commit`, `git push`) or upload the extracted clean archive contents. The included `.gitignore` excludes `weights/`, `*.pt`, footage, snapshots, references, credentials, and runtime files.
-- **Do not drag the live working folder into GitHub's web uploader.** The web uploader ignores `.gitignore`, warns about files over 25 MB, and rejects files over 100 MB — the local CLIP weights are about 338 MB and will always be refused. Upload only the repository files.
-- If a file is ever reported as too large, check `git status` output for untracked weights, videos, or archives before pushing. `git lfs` is not used by this project.
-
-## Telegram and WhatsApp setup
-
-```bat
-python setup_telegram.py
-```
-
-Supply your own bot token and destination through the local setup flow. Start the bot conversation first. Never commit or paste the resulting configuration into an issue, screenshot, log, or README.
-
-Optional WhatsApp setup:
-
-```bat
-python setup_whatsapp.py
-```
-
-External providers may require separate account configuration. Automatic Telegram batching does not enable automatic WhatsApp delivery.
-
-## Source layout
+## Project Structure
 
 ```text
-app.py                         Dashboard, HTTP routes, rule engine, recordings, delivery outbox
-vision_detection.py            Primary detection and stabilisation
-micro_object_ai.py             Optional open-vocabulary and private-reference matching
-emergency_action_detector.py   Pose evidence tracking and confirmation
-object_tracker.py              Object snapshots, search index, associated recordings
-uploaded_video_analysis.py     Historical-video screening
-telegram_listener.py           Telegram commands and acknowledged video delivery
-whatsapp_manager.py            Optional WhatsApp integration
-speaker_alarm.py               Local siren and speech controls
-setup_telegram.py              Local Telegram setup
-setup_whatsapp.py              Local WhatsApp setup
-requirements.txt               Dependency requirements
-download_models.py             Fetches all model weights from official sources
-test_alert_policy.py            Isolated alert-policy regression tests
-THIRD_PARTY_NOTICES.md         Model attribution and licensing notes
+visionai-sentinel/
+├── app.py
+├── vision_detection.py
+├── micro_object_ai.py
+├── emergency_action_detector.py
+├── object_tracker.py
+├── uploaded_video_analysis.py
+├── telegram_listener.py
+├── whatsapp_manager.py
+├── speaker_alarm.py
+├── setup_telegram.py
+├── setup_whatsapp.py
+├── download_models.py
+├── requirements.txt
+├── test_alert_policy.py
+├── THIRD_PARTY_NOTICES.md
+├── install_windows.bat
+├── start_app.bat
+└── README.md
 ```
 
-The clean source archive includes current dashboard modules, setup/launch scripts, branding assets, this README, the model downloader, third-party notices, tests, and ignore rules. It does not contain live configuration, incident footage, object indexes, private references, model binaries, or the private Bengali notes.
+## Tests
 
-## Tests and verification
+Run the alert-policy regression tests:
 
 ```bat
 python -B -m unittest discover -s . -p "test_alert_policy.py"
 ```
 
-The 32 tests isolate current definitions without importing the running application, loading model weights, reading live credentials, sounding speakers, or contacting Telegram. They cover batch timing, deduplication, retry timing, restart persistence, uploaded-event queues, API acknowledgements, event thresholds, evidence gaps, subject changes, conservative pose confirmation, and real-duration capture metadata.
+The tests cover alert batching, retry behavior, queue persistence, event thresholds, evidence gaps, subject changes, pose confirmation, and recording metadata.
 
-Browser checks additionally covered batch status/countdown, warning wording, queued-to-sent uploaded-event presentation, delivery-status polling, navigation, and console errors. A native 15-second H.264 encode/decode check passed on the local Windows installation.
+These tests do not establish real-world detection accuracy or guarantee successful live Telegram delivery. Supervised testing with representative footage is required before deployment.
 
-These checks do not establish physical-camera accuracy for every scenario, a live Telegram delivery guarantee, or commercial acceptance. Perform supervised on-site tests with representative positives and negatives before deployment.
+## Privacy & Security
 
-## Privacy and deployment checklist
+- Obtain appropriate consent and legal authority before camera monitoring or transmitting footage.
+- Never commit bot tokens, credentials, private images, videos, snapshots, or runtime configuration.
+- Review `.gitignore` before committing.
+- Rotate credentials immediately if they are accidentally exposed.
+- The built-in HTTP server does not provide production authentication, TLS, or access control.
+- **Do not expose the dashboard directly to the public internet or an untrusted network.**
+- Define recording retention, deletion, backup, and operator-access policies.
+- Validate camera placement, lighting, zones, thresholds, and detection performance at the deployment site.
 
-- Obtain the required consent and legal authority for camera monitoring and external video transmission.
-- Keep tokens, WhatsApp credentials, footage, snapshots, reference photos, the outbox, and private notes outside public repositories. The included `.gitignore` excludes known local private/runtime files.
-- Ignore rules do not remove files already committed to Git history. If credentials were previously uploaded, revoke/rotate them and address repository history separately.
-- The built-in HTTP server binds to all interfaces and does not provide a production authentication/TLS/access-control layer. **Do not expose it directly to the internet or an untrusted network.** Use a controlled workstation or an appropriately secured gateway.
-- Establish retention/deletion, backup, operator access, and disk-capacity policies. Recordings and the delivery journal are not automatically retention-managed.
-- Calibrate site zones, camera placement, lighting, occlusion tolerance, and acceptable alert thresholds. Current zone geometry is a demo configuration, not a discovered map of machinery or workstations.
-- Measure precision, recall, missed incidents, false alerts per hour, latency, and FPS with labelled site recordings. A 12-second delay can reduce transient false positives but can miss brief incidents or delay assistance.
-- Uploaded traffic speed, stop-line, helmet, and OCR results are uncalibrated screening estimates, not certified enforcement measurements.
-- Review project and dependency licensing before sale or redistribution, including Ultralytics' AGPL/commercial terms and rights to model weights, logos, and reference images. No project-wide commercial licensing grant is added by this README.
+## Limitations & Disclaimer
+
+- AI detection may produce false positives and false negatives.
+- Camera quality, lighting, occlusion, and hardware affect performance.
+- Tracking is geometric and is not biometric identity recognition.
+- Evidence confirmation can reduce transient false positives but may delay or miss brief events.
+- Speed, OCR, helmet, and traffic-event results are screening estimates.
+- Human review is required before any consequential decision.
+- This project is not a substitute for emergency response, certified safety equipment, or professional legal/traffic enforcement systems.
+
+## Third-Party Notices
+
+Review [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for model attribution and licensing information.
+
+Review all dependency and model licenses before commercial use, redistribution, or deployment.
+
+## Contributing
+
+Contributions, bug reports, and suggestions are welcome. Please:
+
+1. Describe the issue or proposed change clearly.
+2. Include reproducible steps where possible.
+3. Avoid sharing credentials, private footage, or personal data.
+4. Test changes before submitting a pull request.
+
+## License
+
+Add a project license before distributing this repository. Third-party libraries and model weights have their own license terms; see `THIRD_PARTY_NOTICES.md`.
+
+---
+
+**VisionAI Sentinel** — AI-assisted monitoring, evidence-based screening, and incident review.
