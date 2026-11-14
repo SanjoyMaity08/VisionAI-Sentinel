@@ -21,27 +21,113 @@ VisionAI Sentinel is a local Windows camera-monitoring dashboard that combines r
 
 ## System Architecture
 
- text
-USB Camera / Uploaded Video
-            |
-            v
-   Object Detection & Tracking
-            |
-            v
-   Evidence / Event Screening
-            |
-       +----+----+
-       |         |
-       v         v
- Local Warning  Incident Recording
-       |         |
-       +----+----+
-            |
-            v
-     Persistent Outbox
-            |
-            v
- Telegram Batch Delivery
+ 
+## System Architecture
+
+The following diagram illustrates the complete system architecture of VisionAI Sentinel, including video ingestion, AI inference, event intelligence, event management, incident storage, notification delivery, and dashboard integration.
+
+```mermaid
+flowchart TB
+
+    subgraph INPUT["1. Video Input Layer"]
+        CAM["USB / IP Cameras"]
+        UP["Uploaded Video"]
+    end
+
+    subgraph INGEST["2. Video Ingestion"]
+        CAP["Camera Capture Manager"]
+        PRE["Frame Preprocessing"]
+        QUEUE["Frame Queue"]
+        VUP["Video Upload Manager"]
+    end
+
+    subgraph AI["3. AI Inference Layer"]
+        DET["YOLO Object Detection"]
+        TRACK["Object Tracking"]
+        POSE["Pose Estimation"]
+        WORLD["YOLO-World Detection"]
+        OCR["License Plate OCR"]
+    end
+
+    subgraph ENGINE["4. Event Intelligence Engine"]
+        RULE["Rule Engine"]
+        EVID["Evidence Validation"]
+        SPEED["Speed Estimation"]
+        SIGNAL["Traffic Signal / Line Analysis"]
+        CONF["Event Confirmation & Confidence"]
+    end
+
+    subgraph EVENT["5. Event Management"]
+        BUS["Event Bus"]
+        EVT["Event Manager"]
+        DEDUP["Deduplication & Cooldown"]
+    end
+
+    subgraph ACTION["6. Action & Storage Layer"]
+        REC["Incident Recorder"]
+        ALERT["Local Alert Service"]
+        OUT["Persistent Telegram Outbox"]
+        DB["Database / Event Store"]
+        FILES["Clip & Snapshot Storage"]
+    end
+
+    subgraph DELIVERY["7. Notification Layer"]
+        TG["Telegram Worker"]
+        WA["WhatsApp Adapter"]
+    end
+
+    subgraph UI["8. Application Interface"]
+        API["Backend API / WebSocket"]
+        DASH["Monitoring Dashboard"]
+        HIST["Incident Search & Playback"]
+    end
+
+    CAM --> CAP
+    CAP --> PRE --> QUEUE
+    UP --> VUP
+
+    QUEUE --> DET
+    VUP --> DET
+
+    DET --> TRACK
+    DET --> POSE
+    DET --> WORLD
+    DET --> OCR
+
+    TRACK --> RULE
+    POSE --> RULE
+    WORLD --> RULE
+    OCR --> RULE
+
+    TRACK --> SPEED
+    SIGNAL --> RULE
+    SPEED --> RULE
+
+    RULE --> EVID
+    EVID --> CONF
+
+    CONF --> BUS
+    BUS --> EVT
+    EVT --> DEDUP
+
+    DEDUP --> REC
+    DEDUP --> ALERT
+    DEDUP --> OUT
+
+    EVT --> DB
+    REC --> FILES
+
+    OUT --> TG
+    OUT --> WA
+
+    EVT --> API
+    ALERT --> API
+    DB --> API
+    FILES --> API
+
+    API --> DASH
+    API --> HIST
+```
 
 ## Technology Stack
 
