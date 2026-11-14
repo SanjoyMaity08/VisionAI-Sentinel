@@ -4,8 +4,6 @@
 
 VisionAI Sentinel is a local Windows camera-monitoring dashboard that combines real-time object detection, evidence-based safety screening, incident recording and playback, uploaded-video analysis, and scheduled Telegram delivery of violation clips.
 
-> **Project status:** Working local pilot. This is not a certified safety system or a validated commercial surveillance solution. AI detections require human review.
-
 ## Features
 
 - **Live camera monitoring:** USB-camera preview with simultaneous object detection and colored bounding boxes.
