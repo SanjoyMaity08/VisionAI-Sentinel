@@ -1,0 +1,701 @@
+timestamp,event,persons_in_restricted_zone
+2026-11-02 15:20:42,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:24:06,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:24:15,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:24:46,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:24:55,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:25:00,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:26:24,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:31:07,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:31:30,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:32:15,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:32:40,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:33:09,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:33:22,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 15:33:36,PERSON_IN_RESTRICTED_ZONE,2
+2026-11-02 15:59:05,PERSON_IN_RESTRICTED_ZONE,1
+2026-11-02 16:19:19,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:23,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:27,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:31,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:35,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:39,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:43,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:47,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:51,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:55,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:19:59,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:03,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:07,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:11,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:15,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:19,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:23,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:27,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:31,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:35,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:39,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:20:43,perimeter,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone,YES
+2026-11-02 16:33:16,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,NO
+2026-11-02 16:33:16,Security Threat,Prohibited Sharp Weapon/Tool Detected,1 unauthorized sharp hazard(s) identified in monitored area.,NO
+2026-11-02 16:33:16,Security & Safety,Unattended Suspicious Baggage,1 baggage item(s) left unattended without an owner nearby.,NO
+2026-11-02 16:33:16,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,NO
+2026-11-02 16:36:29,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:36:31,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 5.0s without staff coverage.,YES
+2026-11-02 16:36:33,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 5.2s past curfew.,YES
+2026-11-02 16:36:35,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:36:38,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 11.5s without staff coverage.,YES
+2026-11-02 16:36:39,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 9.5s. Dispatching health check.,YES
+2026-11-02 16:36:40,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:36:46,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 12.4s past curfew.,YES
+2026-11-02 16:36:47,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:36:49,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:36:50,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 21.2s without staff coverage.,YES
+2026-11-02 16:36:52,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 19.3s past curfew.,YES
+2026-11-02 16:36:53,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:36:54,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 26.8s without staff coverage.,YES
+2026-11-02 16:36:56,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 24.9s past curfew.,YES
+2026-11-02 16:36:58,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 31.8s without staff coverage.,YES
+2026-11-02 16:37:04,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 29.9s past curfew.,YES
+2026-11-02 16:37:05,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:37:07,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 38.6s without staff coverage.,YES
+2026-11-02 16:37:08,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 36.8s past curfew.,YES
+2026-11-02 16:37:09,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:37:11,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:37:12,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 12.4s. Dispatching health check.,YES
+2026-11-02 16:37:13,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:37:15,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 47.0s without staff coverage.,YES
+2026-11-02 16:37:16,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 45.1s past curfew.,YES
+2026-11-02 16:37:17,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 20.3s. Dispatching health check.,YES
+2026-11-02 16:37:19,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:37:21,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 53.1s without staff coverage.,YES
+2026-11-02 16:37:22,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 51.2s past curfew.,YES
+2026-11-02 16:37:23,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 26.3s. Dispatching health check.,YES
+2026-11-02 16:37:25,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:37:26,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 58.6s without staff coverage.,YES
+2026-11-02 16:37:28,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 56.7s past curfew.,YES
+2026-11-02 16:37:29,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:37:31,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:37:32,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 64.4s without staff coverage.,YES
+2026-11-02 16:37:33,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 62.6s past curfew.,YES
+2026-11-02 16:37:34,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:37:36,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 69.9s without staff coverage.,YES
+2026-11-02 16:37:38,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 68.0s past curfew.,YES
+2026-11-02 16:37:41,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 74.9s without staff coverage.,YES
+2026-11-02 16:37:43,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 73.0s past curfew.,YES
+2026-11-02 16:37:44,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 9.4s. Dispatching health check.,YES
+2026-11-02 16:37:46,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 80.2s without staff coverage.,YES
+2026-11-02 16:37:48,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 78.4s past curfew.,YES
+2026-11-02 16:37:49,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 14.7s. Dispatching health check.,YES
+2026-11-02 16:37:51,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 85.2s without staff coverage.,YES
+2026-11-02 16:37:53,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 83.4s past curfew.,YES
+2026-11-02 16:37:55,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 20.1s. Dispatching health check.,YES
+2026-11-02 16:37:56,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 90.3s without staff coverage.,YES
+2026-11-02 16:37:58,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 88.4s past curfew.,YES
+2026-11-02 16:38:00,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 25.6s. Dispatching health check.,YES
+2026-11-02 16:38:02,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 95.5s without staff coverage.,YES
+2026-11-02 16:38:03,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 93.6s past curfew.,YES
+2026-11-02 16:38:05,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 30.6s. Dispatching health check.,YES
+2026-11-02 16:38:07,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 100.6s without staff coverage.,YES
+2026-11-02 16:38:08,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 98.7s past curfew.,YES
+2026-11-02 16:38:10,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:38:11,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:38:13,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 106.9s without staff coverage.,YES
+2026-11-02 16:38:15,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 105.1s past curfew.,YES
+2026-11-02 16:38:17,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:38:19,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:38:20,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 112.7s without staff coverage.,YES
+2026-11-02 16:38:21,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 110.8s past curfew.,YES
+2026-11-02 16:38:24,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 117.7s without staff coverage.,YES
+2026-11-02 16:38:26,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 115.8s past curfew.,YES
+2026-11-02 16:38:27,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 11.0s. Dispatching health check.,YES
+2026-11-02 16:38:29,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 122.7s without staff coverage.,YES
+2026-11-02 16:38:30,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 120.9s past curfew.,YES
+2026-11-02 16:38:32,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 16.1s. Dispatching health check.,YES
+2026-11-02 16:38:34,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 127.8s without staff coverage.,YES
+2026-11-02 16:38:35,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 125.9s past curfew.,YES
+2026-11-02 16:38:37,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 21.1s. Dispatching health check.,YES
+2026-11-02 16:38:39,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 133.0s without staff coverage.,YES
+2026-11-02 16:38:41,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 131.1s past curfew.,YES
+2026-11-02 16:38:42,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 26.1s. Dispatching health check.,YES
+2026-11-02 16:38:44,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 138.0s without staff coverage.,YES
+2026-11-02 16:38:46,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 136.2s past curfew.,YES
+2026-11-02 16:38:48,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 32.1s. Dispatching health check.,YES
+2026-11-02 16:38:50,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 143.5s without staff coverage.,YES
+2026-11-02 16:38:51,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 141.6s past curfew.,YES
+2026-11-02 16:38:53,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 37.1s. Dispatching health check.,YES
+2026-11-02 16:38:55,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 148.5s without staff coverage.,YES
+2026-11-02 16:38:56,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 146.7s past curfew.,YES
+2026-11-02 16:38:58,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 42.1s. Dispatching health check.,YES
+2026-11-02 16:39:00,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 153.6s without staff coverage.,YES
+2026-11-02 16:39:01,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 151.7s past curfew.,YES
+2026-11-02 16:39:03,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 47.1s. Dispatching health check.,YES
+2026-11-02 16:39:05,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 158.8s without staff coverage.,YES
+2026-11-02 16:39:07,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 157.0s past curfew.,YES
+2026-11-02 16:39:08,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 52.3s. Dispatching health check.,YES
+2026-11-02 16:39:10,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 163.9s without staff coverage.,YES
+2026-11-02 16:39:12,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 162.0s past curfew.,YES
+2026-11-02 16:39:13,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 57.3s. Dispatching health check.,YES
+2026-11-02 16:39:15,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 168.9s without staff coverage.,YES
+2026-11-02 16:39:17,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 167.0s past curfew.,YES
+2026-11-02 16:39:18,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 62.3s. Dispatching health check.,YES
+2026-11-02 16:39:20,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 173.9s without staff coverage.,YES
+2026-11-02 16:39:22,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 172.1s past curfew.,YES
+2026-11-02 16:39:23,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 67.3s. Dispatching health check.,YES
+2026-11-02 16:39:25,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 178.9s without staff coverage.,YES
+2026-11-02 16:39:26,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 177.1s past curfew.,YES
+2026-11-02 16:39:28,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:39:29,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:39:31,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 185.1s without staff coverage.,YES
+2026-11-02 16:39:33,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 183.2s past curfew.,YES
+2026-11-02 16:39:34,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:39:36,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:39:37,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 191.3s without staff coverage.,YES
+2026-11-02 16:39:39,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 189.4s past curfew.,YES
+2026-11-02 16:39:40,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:39:42,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:39:43,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:39:45,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 197.2s without staff coverage.,YES
+2026-11-02 16:39:46,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 195.3s past curfew.,YES
+2026-11-02 16:39:48,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 12.0s. Dispatching health check.,YES
+2026-11-02 16:39:49,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:39:52,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 203.2s without staff coverage.,YES
+2026-11-02 16:39:53,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 201.3s past curfew.,YES
+2026-11-02 16:39:55,Workplace Compliance,Prohibited Phone Distraction,Staff browsing device continuously for 5.4s on duty.,YES
+2026-11-02 16:39:56,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 208.5s without staff coverage.,YES
+2026-11-02 16:39:57,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 206.7s past curfew.,YES
+2026-11-02 16:39:58,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 19.0s. Dispatching health check.,YES
+2026-11-02 16:40:00,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:01,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 213.6s without staff coverage.,YES
+2026-11-02 16:40:03,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 211.7s past curfew.,YES
+2026-11-02 16:40:04,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 24.0s. Dispatching health check.,YES
+2026-11-02 16:40:05,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:07,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:40:08,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 218.9s without staff coverage.,YES
+2026-11-02 16:40:09,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 217.1s past curfew.,YES
+2026-11-02 16:40:10,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:12,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:40:13,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:40:14,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 224.4s without staff coverage.,YES
+2026-11-02 16:40:16,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 222.5s past curfew.,YES
+2026-11-02 16:40:17,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:19,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:40:20,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 231.2s without staff coverage.,YES
+2026-11-02 16:40:21,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 229.4s past curfew.,YES
+2026-11-02 16:40:22,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 236.4s without staff coverage.,YES
+2026-11-02 16:40:24,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 234.5s past curfew.,YES
+2026-11-02 16:40:26,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:28,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 241.9s without staff coverage.,YES
+2026-11-02 16:40:29,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 240.0s past curfew.,YES
+2026-11-02 16:40:32,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:34,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 247.5s without staff coverage.,YES
+2026-11-02 16:40:35,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 245.7s past curfew.,YES
+2026-11-02 16:40:36,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 8.4s. Dispatching health check.,YES
+2026-11-02 16:40:38,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:39,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 253.2s without staff coverage.,YES
+2026-11-02 16:40:41,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 251.3s past curfew.,YES
+2026-11-02 16:40:42,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 14.0s. Dispatching health check.,YES
+2026-11-02 16:40:43,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:45,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 258.6s without staff coverage.,YES
+2026-11-02 16:40:46,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 256.7s past curfew.,YES
+2026-11-02 16:40:47,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 19.4s. Dispatching health check.,YES
+2026-11-02 16:40:49,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:40:50,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 264.3s without staff coverage.,YES
+2026-11-02 16:40:52,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 262.4s past curfew.,YES
+2026-11-02 16:40:53,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 25.1s. Dispatching health check.,YES
+2026-11-02 16:40:54,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:00,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:01,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:41:02,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 273.6s without staff coverage.,YES
+2026-11-02 16:41:04,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 271.8s past curfew.,YES
+2026-11-02 16:41:05,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 34.5s. Dispatching health check.,YES
+2026-11-02 16:41:06,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:08,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:41:09,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 280.1s without staff coverage.,YES
+2026-11-02 16:41:10,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 278.2s past curfew.,YES
+2026-11-02 16:41:11,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 40.9s. Dispatching health check.,YES
+2026-11-02 16:41:13,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:14,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:41:15,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 286.4s without staff coverage.,YES
+2026-11-02 16:41:17,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 284.6s past curfew.,YES
+2026-11-02 16:41:18,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 47.3s. Dispatching health check.,YES
+2026-11-02 16:41:19,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:22,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:41:23,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:41:24,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 292.9s without staff coverage.,YES
+2026-11-02 16:41:25,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 291.0s past curfew.,YES
+2026-11-02 16:41:26,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 53.7s. Dispatching health check.,YES
+2026-11-02 16:41:28,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:29,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:41:30,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:41:32,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 301.5s without staff coverage.,YES
+2026-11-02 16:41:33,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 299.6s past curfew.,YES
+2026-11-02 16:41:34,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 62.3s. Dispatching health check.,YES
+2026-11-02 16:41:35,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:37,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:41:38,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:41:39,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 309.2s without staff coverage.,YES
+2026-11-02 16:41:40,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 307.3s past curfew.,YES
+2026-11-02 16:41:42,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 70.0s. Dispatching health check.,YES
+2026-11-02 16:41:43,Workplace Safety,Machine Danger Perimeter Breach,1 person(s) entered hazardous zone. Halting line.,YES
+2026-11-02 16:41:44,Safety Compliance,Mandatory PPE Vest Violation,1 staff member(s) detected missing high-vis safety vests.,YES
+2026-11-02 16:41:46,Emergency / Medical,Sudden Fall & Collapse Detected,Person in horizontal posture on floor. Siren & emergency dispatch triggered.,YES
+2026-11-02 16:41:47,Operational Protocol,Unmanned Duty Post / Staff Absence,Desk abandoned for 316.9s without staff coverage.,YES
+2026-11-02 16:41:48,Security & Curfew,Suspicious Night Loitering,Subject dwelling in monitored zone for 315.0s past curfew.,YES
+2026-11-02 16:41:50,Domestic Care,Prolonged Inactivity Watch,Elder motionless for 77.7s. Dispatching health check.,YES
+2026-11-02 16:50:40,Workplace Safety,Machine Danger Perimeter Intrusion,1 person(s) entered hazardous machinery zone. Halting line.,YES
+2026-11-02 16:50:40,Safety Compliance,Mandatory PPE Safety Vest Violation,1 staff member(s) missing high-vis safety vests.,YES
+2026-11-02 17:01:29,Test Category,Test Trigger Incident,Details test,incident_20261102_170129_test_trigger_incident.mp4
+2026-11-02 17:04:21,Workplace Safety,PPE & Vest Compliance Violation,1 worker(s) missing high-vis safety vests.,incident_20261102_170423_ppe_&_vest_compliance_vi.mp4
+2026-11-02 17:04:23,Workplace Safety,Machine Danger Perimeter Breach,1 human(s) entered proximity. Halting line.,incident_20261102_170425_machine_danger_perimeter.mp4
+2026-11-02 17:04:25,Commercial Operations,Unmanned Billing Desk Alert,Billing desk empty for 6.1s. Pinging manager.,incident_20261102_170427_unmanned_billing_desk_al.mp4
+2026-11-02 17:04:27,Domestic & Eldercare,Sudden Fall & Emergency Collapse,Instant emergency call & family siren alert dispatched.,incident_20261102_170429_sudden_fall_&_emergency_.mp4
+2026-11-02 17:04:29,Workplace Safety,PPE & Vest Compliance Violation,1 worker(s) missing high-vis safety vests.,incident_20261102_170431_ppe_&_vest_compliance_vi.mp4
+2026-11-02 17:04:31,Workplace Safety,Machine Danger Perimeter Breach,1 human(s) entered proximity. Halting line.,incident_20261102_170433_machine_danger_perimeter.mp4
+2026-11-02 17:04:33,Commercial Operations,Unmanned Billing Desk Alert,Billing desk empty for 14.4s. Pinging manager.,incident_20261102_170435_unmanned_billing_desk_al.mp4
+2026-11-02 17:04:35,Domestic & Eldercare,Sudden Fall & Emergency Collapse,Instant emergency call & family siren alert dispatched.,incident_20261102_170437_sudden_fall_&_emergency_.mp4
+2026-11-02 17:04:37,Domestic & Eldercare,Inactivity Watch Warning,Notice: elder hasn't moved for 16.4s.,incident_20261102_170439_inactivity_watch_warning.mp4
+2026-11-02 17:04:39,Workplace Safety,Machine Danger Perimeter Breach,1 human(s) entered proximity. Halting line.,incident_20261102_170441_machine_danger_perimeter.mp4
+2026-11-02 17:04:41,Commercial Operations,Unmanned Billing Desk Alert,Billing desk empty for 22.6s. Pinging manager.,incident_20261102_170443_unmanned_billing_desk_al.mp4
+2026-11-02 17:04:43,Domestic & Eldercare,Sudden Fall & Emergency Collapse,Instant emergency call & family siren alert dispatched.,incident_20261102_170445_sudden_fall_&_emergency_.mp4
+2026-11-02 17:04:45,Domestic & Eldercare,Inactivity Watch Warning,Notice: elder hasn't moved for 24.7s.,incident_20261102_170447_inactivity_watch_warning.mp4
+2026-11-02 17:04:47,Workplace Safety,PPE & Vest Compliance Violation,1 worker(s) missing high-vis safety vests.,incident_20261102_170450_ppe_&_vest_compliance_vi.mp4
+2026-11-02 17:04:52,Commercial Operations,Unmanned Billing Desk Alert,Billing desk empty for 33.0s. Pinging manager.,incident_20261102_170454_unmanned_billing_desk_al.mp4
+2026-11-02 17:04:54,Domestic & Eldercare,Inactivity Watch Warning,Notice: elder hasn't moved for 32.9s.,incident_20261102_170456_inactivity_watch_warning.mp4
+2026-11-02 17:04:50,Workplace Safety,Machine Danger Perimeter Breach,1 human(s) entered proximity. Halting line.,incident_20261102_170452_machine_danger_perimeter.mp4
+2026-11-02 17:04:56,Workplace Safety,PPE & Vest Compliance Violation,1 worker(s) missing high-vis safety vests.,incident_20261102_170458_ppe_&_vest_compliance_vi.mp4
+2026-11-02 17:04:58,Security,Night Loitering Alert,Suspicious loitering past 11 PM (dwelling 37.1s).,incident_20261102_170500_night_loitering_alert.mp4
+2026-11-02 17:05:00,Commercial Operations,Unmanned Billing Desk Alert,Billing desk empty for 41.1s. Pinging manager.,incident_20261102_170502_unmanned_billing_desk_al.mp4
+2026-11-02 17:05:02,Hospitality,VIP Welcoming Alert,Instant notification upon entrance. Guest greeting initiated.,incident_20261102_170504_vip_welcoming_alert.mp4
+2026-11-02 17:05:04,Workplace Safety,PPE & Vest Compliance Violation,1 worker(s) missing high-vis safety vests.,incident_20261102_170506_ppe_&_vest_compliance_vi.mp4
+2026-11-02 17:05:06,Domestic & Eldercare,Sudden Fall & Emergency Collapse,Instant emergency call & family siren alert dispatched.,incident_20261102_170508_sudden_fall_&_emergency_.mp4
+2026-11-02 17:05:08,Workplace Safety,Machine Danger Perimeter Breach,1 human(s) entered proximity. Halting line.,incident_20261102_170510_machine_danger_perimeter.mp4
+2026-11-02 17:05:10,Commercial Operations,Unmanned Billing Desk Alert,Billing desk empty for 51.4s. Pinging manager.,incident_20261102_170512_unmanned_billing_desk_al.mp4
+2026-11-02 17:05:12,Domestic & Eldercare,Inactivity Watch Warning,Notice: elder hasn't moved for 15.9s.,incident_20261102_170514_inactivity_watch_warning.mp4
+2026-11-02 17:05:14,Domestic & Eldercare,Sudden Fall & Emergency Collapse,Instant emergency call & family siren alert dispatched.,incident_20261102_170516_sudden_fall_&_emergency_.mp4
+2026-11-02 17:05:16,Workplace Safety,Machine Danger Perimeter Breach,1 human(s) entered proximity. Halting line.,incident_20261102_170518_machine_danger_perimeter.mp4
+2026-11-02 17:05:18,Commercial Operations,Unmanned Billing Desk Alert,Billing desk empty for 59.6s. Pinging manager.,incident_20261102_170520_unmanned_billing_desk_al.mp4
+2026-11-02 17:05:20,Domestic & Eldercare,Inactivity Watch Warning,Notice: elder hasn't moved for 24.1s.,incident_20261102_170522_inactivity_watch_warning.mp4
+2026-11-02 17:05:22,Domestic & Eldercare,Sudden Fall & Emergency Collapse,Instant emergency call & family siren alert dispatched.,incident_20261102_170524_sudden_fall_&_emergency_.mp4
+2026-11-02 17:05:24,Workplace Safety,Machine Danger Perimeter Breach,1 human(s) entered proximity. Halting line.,incident_20261102_170526_machine_danger_perimeter.mp4
+2026-11-02 17:10:59,Machine Danger Perimeter Breach,Human in hazard zone,clip_20261102_171059_machine_danger_perim.mp4
+2026-11-02 17:12:34,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_171236_machine_danger_perim.mp4
+2026-11-02 17:41:35,Sudden Fall & Emergency Collapse,Subject collapsed on floor in horizontal posture.,clip_20261102_174137_sudden_fall_&_emerge.mp4
+2026-11-02 17:43:47,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_174350_machine_danger_perim.mp4
+2026-11-02 17:46:47,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (17.7s).,clip_20261102_174650_shift_laziness_/_sle.mp4
+2026-11-02 18:00:10,Unmanned Billing Desk Alert,Billing desk vacant for 5.0s.,clip_20261102_180012_unmanned_billing_des.mp4
+2026-11-02 18:01:10,Unmanned Billing Desk Alert,Billing desk vacant for 50.6s.,clip_20261102_180113_unmanned_billing_des.mp4
+2026-11-02 18:04:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_180413_machine_danger_perim.mp4
+2026-11-02 18:07:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_180713_machine_danger_perim.mp4
+2026-11-02 18:10:10,Machine Danger Perimeter Breach,2 human entered hazard zone. Halting line.,clip_20261102_181013_machine_danger_perim.mp4
+2026-11-02 18:13:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_181313_machine_danger_perim.mp4
+2026-11-02 18:16:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_181613_machine_danger_perim.mp4
+2026-11-02 18:19:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_181913_machine_danger_perim.mp4
+2026-11-02 18:22:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_182213_machine_danger_perim.mp4
+2026-11-02 18:25:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_182513_machine_danger_perim.mp4
+2026-11-02 18:28:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_182813_machine_danger_perim.mp4
+2026-11-02 18:31:10,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261102_183113_machine_danger_perim.mp4
+2026-11-03 10:27:40,Machine Danger Perimeter Breach,1 human entered hazard zone. Halting line.,clip_20261103_102747_machine_danger_perimeter.mp4
+2026-11-03 10:29:06,Unmanned Billing Desk Alert,Billing desk vacant for 28.9s.,clip_20261103_102912_unmanned_billing_desk_al.mp4
+2026-11-03 10:50:06,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261103_105013_machine_danger_perimeter.mp4
+2026-11-03 10:50:43,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 38.7s. Halting line.,clip_20261103_105049_machine_danger_perimeter.mp4
+2026-11-03 11:57:47,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 11:57:49,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 11:59:58,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261103_120005_machine_danger_perimeter.mp4
+2026-11-03 12:00:36,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 12:00:36,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 22.6s. Halting line.,clip_20261103_120043_machine_danger_perimeter.mp4
+2026-11-03 12:01:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 68.1s. Halting line.,clip_20261103_120128_machine_danger_perimeter.mp4
+2026-11-03 12:04:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 17.2s. Halting line.,clip_20261103_120428_machine_danger_perimeter.mp4
+2026-11-03 12:06:33,SPEAKER SILENCED,Speaker alarm silenced.,SPEAKER_AUDIO
+2026-11-03 12:06:39,SPEAKER SILENCED,Speaker alarm silenced.,SPEAKER_AUDIO
+2026-11-03 12:06:40,SPEAKER SILENCED,Speaker alarm silenced.,SPEAKER_AUDIO
+2026-11-03 12:06:42,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 12:06:47,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 12:07:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 131.9s. Halting line.,clip_20261103_120728_machine_danger_perimeter.mp4
+2026-11-03 12:10:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 75.6s. Halting line.,clip_20261103_121028_machine_danger_perimeter.mp4
+2026-11-03 12:13:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 255.6s. Halting line.,clip_20261103_121328_machine_danger_perimeter.mp4
+2026-11-03 12:16:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 26.8s. Halting line.,clip_20261103_121628_machine_danger_perimeter.mp4
+2026-11-03 12:19:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 206.8s. Halting line.,clip_20261103_121928_machine_danger_perimeter.mp4
+2026-11-03 12:21:36,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 12:21:38,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 12:21:43,SPEAKER SILENCED,Speaker alarm silenced.,SPEAKER_AUDIO
+2026-11-03 12:22:21,Unmanned Billing Desk Alert,Billing desk vacant for 21.2s with 1 customer(s) waiting.,clip_20261103_122229_unmanned_billing_desk_al.mp4
+2026-11-03 12:23:06,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 12:23:08,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 12:35:01,VOICE INTERCOM,"Spoken on speaker: ""Warning: High-visibility safety vest is required in this facility immediately.""",SPEAKER_AUDIO
+2026-11-03 12:35:16,VOICE INTERCOM,"Spoken on speaker: ""Warning: High-visibility safety vest is required in this facility immediately.""",SPEAKER_AUDIO
+2026-11-03 12:35:26,VOICE INTERCOM,"Spoken on speaker: ""Danger: Machine danger perimeter breached. Step back immediately.""",SPEAKER_AUDIO
+2026-11-03 12:35:37,VOICE INTERCOM,"Spoken on speaker: ""Emergency alert: Immediate security inspection requested on floor.""",SPEAKER_AUDIO
+2026-11-03 12:36:54,VOICE INTERCOM,"Spoken on speaker: ""fire detection""",SPEAKER_AUDIO
+2026-11-03 13:47:06,REMOTE VOICE BROADCAST,"Client broadcasted: ""I need bottle clip""",SPEAKER_AUDIO
+2026-11-03 13:50:28,REMOTE VOICE BROADCAST,"Client broadcasted: ""Send me book clip""",SPEAKER_AUDIO
+2026-11-03 14:12:40,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 14:12:51,DASHBOARD SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 14:13:34,VOICE INTERCOM,"Spoken on speaker: ""i need help""",SPEAKER_AUDIO
+2026-11-03 14:30:08,REMOTE VOICE BROADCAST,"Client broadcasted: ""Please help me""",SPEAKER_AUDIO
+2026-11-03 14:32:29,REMOTE VOICE BROADCAST,"Client broadcasted: ""Ami khub risk a achi""",SPEAKER_AUDIO
+2026-11-03 14:44:43,REMOTE VOICE BROADCAST,"Client broadcasted: ""I need a play last known bottle clip""",SPEAKER_AUDIO
+2026-11-03 14:47:33,Night Loitering Alert,Suspicious dwelling detected for 5.0s in perimeter zone.,clip_20261103_144741_night_loitering_alert.mp4
+2026-11-03 14:48:56,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_144903_ppe_safety_vest_violatio.mp4
+2026-11-03 14:49:59,REMOTE VOICE BROADCAST,"Client broadcasted: ""Panic attack""",SPEAKER_AUDIO
+2026-11-03 14:50:09,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Panic attack' via Telegram. Retrieved 'Mouse' (Lower Right Area (X: 563, Y: 418)). Dispatched snapshot and 10s video clip.",SPEAKER_AUDIO
+2026-11-03 14:51:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_145130_ppe_safety_vest_violatio.mp4
+2026-11-03 14:54:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 4.5s. Halting line.,clip_20261103_145430_machine_danger_perimeter.mp4
+2026-11-03 14:56:32,REMOTE ALARM (TELEGRAM),Client triggered emergency USB speaker siren from phone.,SPEAKER_AUDIO
+2026-11-03 14:56:44,REMOTE ALARM SILENCED,Client silenced alarm via Telegram.,SPEAKER_AUDIO
+2026-11-03 14:57:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 94.3s. Halting line.,clip_20261103_145730_machine_danger_perimeter.mp4
+2026-11-03 15:00:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 274.4s. Halting line.,clip_20261103_150030_machine_danger_perimeter.mp4
+2026-11-03 15:02:29,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 15:03:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_150330_ppe_safety_vest_violatio.mp4
+2026-11-03 15:04:57,VOICE INTERCOM,"Spoken on speaker: ""Warning: High-visibility safety vest is required in this facility immediately.""",SPEAKER_AUDIO
+2026-11-03 15:06:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 634.5s. Halting line.,clip_20261103_150630_machine_danger_perimeter.mp4
+2026-11-03 15:09:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 814.5s. Halting line.,clip_20261103_150930_machine_danger_perimeter.mp4
+2026-11-03 15:12:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 994.6s. Halting line.,clip_20261103_151231_machine_danger_perimeter.mp4
+2026-11-03 15:15:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 1174.6s. Halting line.,clip_20261103_151530_machine_danger_perimeter.mp4
+2026-11-03 15:18:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 141.1s. Halting line.,clip_20261103_151830_machine_danger_perimeter.mp4
+2026-11-03 15:21:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 96.4s. Halting line.,clip_20261103_152130_machine_danger_perimeter.mp4
+2026-11-03 15:24:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 31.2s. Halting line.,clip_20261103_152432_machine_danger_perimeter.mp4
+2026-11-03 15:25:56,REMOTE VOICE BROADCAST,"Client broadcasted: ""🤳""",SPEAKER_AUDIO
+2026-11-03 15:26:26,REMOTE VOICE BROADCAST,"Client broadcasted: ""Remote""",SPEAKER_AUDIO
+2026-11-03 15:26:35,REMOTE VOICE BROADCAST,"Client broadcasted: ""Book""",SPEAKER_AUDIO
+2026-11-03 15:26:38,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Remote' via Telegram. Retrieved 'Remote' (Lower Right Area (X: 568, Y: 464)). Dispatched snapshot and 10s video clip.",SPEAKER_AUDIO
+2026-11-03 15:29:49,REMOTE VOICE BROADCAST,"Client broadcasted: ""Keyboard""",SPEAKER_AUDIO
+2026-11-03 15:29:59,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Keyboard' via Telegram. Retrieved 'Keyboard' (Middle Right Area (X: 485, Y: 188)). Dispatched snapshot and 10s video clip.",SPEAKER_AUDIO
+2026-11-03 15:31:29,REMOTE VOICE BROADCAST,"Client broadcasted: ""Cell Phone""",SPEAKER_AUDIO
+2026-11-03 15:31:41,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Cell Phone' via Telegram. Retrieved 'Cell Phone' (Lower Right Area (X: 456, Y: 470)). Dispatched snapshot and 10s video clip.",SPEAKER_AUDIO
+2026-11-03 15:32:18,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_153225_ppe_safety_vest_violatio.mp4
+2026-11-03 15:33:24,Unmanned Billing Desk Alert,Billing desk vacant for 65.8s with 1 customer(s) waiting.,clip_20261103_153331_unmanned_billing_desk_al.mp4
+2026-11-03 15:36:24,Unmanned Billing Desk Alert,Billing desk vacant for 245.9s with 1 customer(s) waiting.,clip_20261103_153631_unmanned_billing_desk_al.mp4
+2026-11-03 15:41:15,REMOTE VOICE BROADCAST,"Client broadcasted: ""Status""",SPEAKER_AUDIO
+2026-11-03 15:39:25,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (28.2s).,clip_20261103_154118_shift_laziness_sleeping_.mp4
+2026-11-03 15:42:35,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (4.4s).,clip_20261103_154427_shift_laziness_sleeping_.mp4
+2026-11-03 15:45:25,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (5.4s).,clip_20261103_154717_shift_laziness_sleeping_.mp4
+2026-11-03 15:47:38,REMOTE VOICE BROADCAST,"Client broadcasted: ""👍""",SPEAKER_AUDIO
+2026-11-03 15:48:02,REMOTE VOICE BROADCAST,"Client broadcasted: ""Dog""",SPEAKER_AUDIO
+2026-11-03 15:48:26,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (21.6s).,clip_20261103_155019_shift_laziness_sleeping_.mp4
+2026-11-03 15:51:45,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (4.4s).,clip_20261103_155337_shift_laziness_sleeping_.mp4
+2026-11-03 15:54:29,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (4.3s).,clip_20261103_155640_shift_laziness_sleeping_.mp4
+2026-11-03 15:57:37,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (4.4s).,clip_20261103_155932_shift_laziness_sleeping_.mp4
+2026-11-03 16:01:17,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (4.3s).,clip_20261103_160309_shift_laziness_sleeping_.mp4
+2026-11-03 16:15:37,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (4.3s).,clip_20261103_161729_shift_laziness_sleeping_.mp4
+2026-11-03 16:19:10,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (4.3s).,clip_20261103_162101_shift_laziness_sleeping_.mp4
+2026-11-03 16:51:46,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_165157_ppe_safety_vest_violatio.mp4
+2026-11-03 16:52:02,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 15.4s. Halting line.,clip_20261103_165212_machine_danger_perimeter.mp4
+2026-11-03 16:55:02,Night Loitering Alert,Suspicious dwelling detected for 195.6s in perimeter zone.,clip_20261103_165511_night_loitering_alert.mp4
+2026-11-03 16:56:57,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261103_165706_machine_danger_perimeter.mp4
+2026-11-03 16:59:43,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 29.7s. Halting line.,clip_20261103_165951_machine_danger_perimeter.mp4
+2026-11-03 17:00:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261103_170032_machine_danger_perimeter.mp4
+2026-11-03 17:02:32,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_170241_ppe_safety_vest_violatio.mp4
+2026-11-03 17:05:23,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (5.2s).,clip_20261103_170533_shift_laziness_sleeping_.mp4
+2026-11-03 17:08:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 132.5s. Halting line.,clip_20261103_170831_machine_danger_perimeter.mp4
+2026-11-03 17:10:44,VOICE INTERCOM,"Spoken on speaker: ""need help""",SPEAKER_AUDIO
+2026-11-03 17:10:50,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 17:11:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 35.3s. Halting line.,clip_20261103_171131_machine_danger_perimeter.mp4
+2026-11-03 17:14:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 215.4s. Halting line.,clip_20261103_171432_machine_danger_perimeter.mp4
+2026-11-03 17:17:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 395.4s. Halting line.,clip_20261103_171731_machine_danger_perimeter.mp4
+2026-11-03 17:20:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 6.4s. Halting line.,clip_20261103_172032_machine_danger_perimeter.mp4
+2026-11-03 17:23:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 42.0s. Halting line.,clip_20261103_172332_machine_danger_perimeter.mp4
+2026-11-03 17:25:14,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-03 17:26:23,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 152.0s. Halting line.,clip_20261103_172632_machine_danger_perimeter.mp4
+2026-11-03 17:29:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_172932_ppe_safety_vest_violatio.mp4
+2026-11-03 17:30:34,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 17:32:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_173231_ppe_safety_vest_violatio.mp4
+2026-11-03 17:35:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_173531_ppe_safety_vest_violatio.mp4
+2026-11-03 17:38:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_173832_ppe_safety_vest_violatio.mp4
+2026-11-03 17:41:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_174131_ppe_safety_vest_violatio.mp4
+2026-11-03 17:44:23,PPE Safety Vest Violation,2 worker(s) missing high-vis safety vests.,clip_20261103_174432_ppe_safety_vest_violatio.mp4
+2026-11-03 17:44:45,VOICE INTERCOM,"Spoken on speaker: ""Notice: Personal mobile phone usage is prohibited while on active duty.""",SPEAKER_AUDIO
+2026-11-03 17:45:10,VOICE INTERCOM,"Spoken on speaker: ""Emergency alert: Immediate security inspection requested on floor.""",SPEAKER_AUDIO
+2026-11-03 17:45:30,VOICE INTERCOM,"Spoken on speaker: ""need help""",SPEAKER_AUDIO
+2026-11-03 17:47:23,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_174732_ppe_safety_vest_violatio.mp4
+2026-11-03 17:50:24,Night Loitering Alert,Suspicious dwelling detected for 192.6s in perimeter zone.,clip_20261103_175033_night_loitering_alert.mp4
+2026-11-03 17:53:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 29.6s. Halting line.,clip_20261103_175331_machine_danger_perimeter.mp4
+2026-11-03 17:56:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 3.0s. Halting line.,clip_20261103_175632_machine_danger_perimeter.mp4
+2026-11-03 17:59:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.5s. Halting line.,clip_20261103_175932_machine_danger_perimeter.mp4
+2026-11-03 18:02:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 144.2s. Halting line.,clip_20261103_180232_machine_danger_perimeter.mp4
+2026-11-03 18:05:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 120.6s. Halting line.,clip_20261103_180532_machine_danger_perimeter.mp4
+2026-11-03 18:08:24,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_180832_ppe_safety_vest_violatio.mp4
+2026-11-03 18:11:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 480.6s. Halting line.,clip_20261103_181133_machine_danger_perimeter.mp4
+2026-11-03 18:11:46,VOICE INTERCOM,"Spoken on speaker: ""mouse""",SPEAKER_AUDIO
+2026-11-03 18:12:27,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 18:12:28,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 18:12:30,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 18:12:31,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 18:12:32,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 18:12:33,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 18:12:35,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-03 18:12:44,VOICE INTERCOM,"Spoken on speaker: ""need help need help""",SPEAKER_AUDIO
+2026-11-03 18:14:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 660.7s. Halting line.,clip_20261103_181432_machine_danger_perimeter.mp4
+2026-11-03 18:17:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 840.7s. Halting line.,clip_20261103_181732_machine_danger_perimeter.mp4
+2026-11-03 18:20:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 81.4s. Halting line.,clip_20261103_182033_machine_danger_perimeter.mp4
+2026-11-03 18:23:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 261.4s. Halting line.,clip_20261103_182333_machine_danger_perimeter.mp4
+2026-11-03 18:25:05,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Need help' via Telegram. Retrieved 'Bed' (Middle Center Area (X: 319, Y: 240)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-03 18:25:12,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Need help' via Telegram. Retrieved 'Bed' (Middle Center Area (X: 319, Y: 240)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-03 18:25:34,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Mouse' via Telegram. Retrieved 'Mouse' (Lower Left Area (X: 40, Y: 371)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-03 18:25:35,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Mouse' via Telegram. Retrieved 'Mouse' (Lower Left Area (X: 40, Y: 371)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-03 18:26:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 441.5s. Halting line.,clip_20261103_182632_machine_danger_perimeter.mp4
+2026-11-03 18:29:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 621.5s. Halting line.,clip_20261103_182933_machine_danger_perimeter.mp4
+2026-11-03 18:32:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 801.5s. Halting line.,clip_20261103_183233_machine_danger_perimeter.mp4
+2026-11-03 18:35:24,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 981.6s. Halting line.,clip_20261103_183533_machine_danger_perimeter.mp4
+2026-11-03 18:48:30,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_184838_ppe_safety_vest_violatio.mp4
+2026-11-03 18:49:41,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_184948_ppe_safety_vest_violatio.mp4
+2026-11-03 18:52:41,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_185248_ppe_safety_vest_violatio.mp4
+2026-11-03 18:55:16,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_185531_ppe_safety_vest_violatio.mp4
+2026-11-03 18:56:34,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_185648_ppe_safety_vest_violatio.mp4
+2026-11-03 18:59:29,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 123.6s. Halting line.,clip_20261103_185943_machine_danger_perimeter.mp4
+2026-11-03 19:02:29,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 22.3s. Halting line.,clip_20261103_190243_machine_danger_perimeter.mp4
+2026-11-03 19:05:37,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_190605_ppe_safety_vest_violatio.mp4
+2026-11-03 19:06:25,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261103_190642_ppe_safety_vest_violatio.mp4
+2026-11-03 19:09:21,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 55.8s. Halting line.,clip_20261103_190940_machine_danger_perimeter.mp4
+2026-11-04 10:48:01,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261104_104822_ppe_safety_vest_violatio.mp4
+2026-11-04 10:50:50,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261104_105106_ppe_safety_vest_violatio.mp4
+2026-11-04 10:53:50,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 19.8s. Halting line.,clip_20261104_105411_machine_danger_perimeter.mp4
+2026-11-04 10:56:56,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261104_105715_machine_danger_perimeter.mp4
+2026-11-04 10:58:19,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261104_105837_machine_danger_perimeter.mp4
+2026-11-04 11:00:10,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261104_110030_machine_danger_perimeter.mp4
+2026-11-04 11:02:55,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 8.9s. Halting line.,clip_20261104_110311_machine_danger_perimeter.mp4
+2026-11-04 11:05:54,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261104_110613_ppe_safety_vest_violatio.mp4
+2026-11-04 11:37:29,VOICE INTERCOM,"Spoken on speaker: ""Emergency alert: Immediate security inspection requested on floor.""",SPEAKER_AUDIO
+2026-11-04 11:52:22,VOICE INTERCOM,"Spoken on speaker: ""Attention staff: Customer waiting. Please attend to the billing desk immediately.""",SPEAKER_AUDIO
+2026-11-04 11:52:41,VOICE INTERCOM,"Spoken on speaker: ""Attention staff: Customer waiting. Please attend to the billing desk immediately.""",SPEAKER_AUDIO
+2026-11-04 11:52:51,VOICE INTERCOM,"Spoken on speaker: ""Notice: Personal mobile phone usage is prohibited while on active duty.""",SPEAKER_AUDIO
+2026-11-04 11:52:59,VOICE INTERCOM,"Spoken on speaker: ""Warning: High-visibility safety vest is required in this facility immediately.""",SPEAKER_AUDIO
+2026-11-04 11:53:07,VOICE INTERCOM,"Spoken on speaker: ""Emergency alert: Immediate security inspection requested on floor.""",SPEAKER_AUDIO
+2026-11-04 12:01:56,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-04 12:35:50,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Computer tower' via Telegram. Retrieved 'Computer Tower' (Lower Right Area (X: 1160, Y: 594)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-04 12:35:55,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Computer tower' via Telegram. Retrieved 'Computer Tower' (Lower Right Area (X: 1160, Y: 594)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-04 12:42:25,Unmanned Billing Desk Alert,Billing desk vacant for 5.0s with 1 customer(s) waiting.,clip_20261104_124300_unmanned_billing_desk_al.mp4
+2026-11-04 12:48:33,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261104_124856_ppe_safety_vest_violatio.mp4
+2026-11-04 12:54:19,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-05 12:25:32,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-05 12:25:36,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-05 12:33:16,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261105_123340_ppe_safety_vest_violatio.mp4
+2026-11-05 12:37:01,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-05 12:37:05,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-05 12:37:31,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261105_123752_ppe_safety_vest_violatio.mp4
+2026-11-05 13:05:06,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261105_130524_machine_danger_perimeter.mp4
+2026-11-05 13:08:05,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261105_130822_ppe_safety_vest_violatio.mp4
+2026-11-05 13:11:05,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 53.8s. Halting line.,clip_20261105_131123_machine_danger_perimeter.mp4
+2026-11-05 13:14:06,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 106.1s. Halting line.,clip_20261105_131425_machine_danger_perimeter.mp4
+2026-11-05 13:17:06,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 16.2s. Halting line.,clip_20261105_131723_machine_danger_perimeter.mp4
+2026-11-05 15:33:00,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-05 15:33:02,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-05 15:33:16,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-05 15:33:00,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261105_153320_ppe_safety_vest_violatio.mp4
+2026-11-05 15:33:24,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-05 16:13:39,AUTOMATIC VIOLATION ALERT,Uploaded video (historical review) detected: Car entry detected in uploaded video. Uploaded recording: License Plate Detection Test.mp4. Video time: 00:01. License plate: not available (plate detector/OCR not configured). Helmet status: not applicable.,SPEAKER_AUDIO
+2026-11-05 16:14:04,AUTOMATIC VIOLATION ALERT,Uploaded video (historical review) detected: Car entry detected in uploaded video. Uploaded recording: License Plate Detection Test.mp4. Video time: 00:01. License plate: not available (plate detector/OCR not configured). Helmet status: not applicable.,SPEAKER_AUDIO
+2026-11-05 16:15:14,AUTOMATIC VIOLATION ALERT,Uploaded video (historical review) detected: Car entry detected in uploaded video. Uploaded recording: License Plate Detection Test.mp4. Video time: 00:01. License plate: not available (plate detector/OCR not configured). Helmet status: not applicable.,SPEAKER_AUDIO
+2026-11-10 11:26:02,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:26:17,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:26:34,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:26:59,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:27:17,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:27:34,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:33:22,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:34:20,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 11:34:34,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:34:50,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:35:08,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:33:22,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261110_113532_ppe_safety_vest_violatio.mp4
+2026-11-10 11:35:37,AUTOMATIC VIOLATION ALERT,CCMS camera detected: NO PPE VEST,SPEAKER_AUDIO
+2026-11-10 11:47:56,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Cell phone' via Telegram. Retrieved 'Cell Phone' (Middle Center Area (X: 535, Y: 451)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-10 11:47:57,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Cell phone' via Telegram. Retrieved 'Cell Phone' (Middle Center Area (X: 535, Y: 451)) and its live detection clip.",SPEAKER_AUDIO
+2026-11-10 20:07:02,EMERGENCY SIREN (AI CHAT),User requested alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 20:07:53,SIREN SILENCED (AI CHAT),User silenced alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 20:30:39,SIREN SILENCED (AI CHAT),User silenced alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 20:49:09,SIREN SILENCED (AI CHAT),User silenced alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 21:01:30,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-10 21:01:54,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:02:15,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:02:39,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:02:56,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:03:06,AUTOMATIC VIOLATION ALERT,CCMS camera detected: UNMANNED DESK,SPEAKER_AUDIO
+2026-11-10 21:03:13,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:01:50,Rapid Close-Proximity Motion,Rapid movement detected near another person; review footage to determine context.,clip_20261110_210311_rapid_close_proximity_mo.mp4
+2026-11-10 21:03:34,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:03:45,AUTOMATIC VIOLATION ALERT,CCMS camera detected: UNMANNED DESK,SPEAKER_AUDIO
+2026-11-10 21:03:52,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:04:10,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:05:02,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Cell phone'. Found 'Cell Phone' (Middle Center Area (X: 535, Y: 451)).",SPEAKER_AUDIO
+2026-11-10 21:17:14,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:17:35,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:17:47,AUTOMATIC VIOLATION ALERT,CCMS camera detected: UNMANNED DESK,SPEAKER_AUDIO
+2026-11-10 21:17:48,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PHONE ADDICTION,SPEAKER_AUDIO
+2026-11-10 21:18:07,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:18:19,AUTOMATIC VIOLATION ALERT,CCMS camera detected: UNMANNED DESK,SPEAKER_AUDIO
+2026-11-10 21:17:14,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.3s. Halting line.,clip_20261110_211822_machine_danger_perimeter.mp4
+2026-11-10 21:18:25,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:18:35,AUTOMATIC VIOLATION ALERT,CCMS camera detected: UNMANNED DESK,SPEAKER_AUDIO
+2026-11-10 21:18:42,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:19:54,AUTOMATIC VIOLATION ALERT,CCMS camera detected: PERIMETER BREACH,SPEAKER_AUDIO
+2026-11-10 21:20:02,AUTOMATIC VIOLATION ALERT,CCMS camera detected: UNMANNED DESK,SPEAKER_AUDIO
+2026-11-10 21:21:20,VOICE INTERCOM,"Spoken on speaker: ""Attention staff: Customer waiting. Please attend to the billing desk immediately.""",SPEAKER_AUDIO
+2026-11-10 21:21:33,VOICE INTERCOM,"Spoken on speaker: ""Warning: High-visibility safety vest is required in this facility immediately.""",SPEAKER_AUDIO
+2026-11-10 21:21:43,VOICE INTERCOM,"Spoken on speaker: ""Emergency alert: Immediate security inspection requested on floor.""",SPEAKER_AUDIO
+2026-11-10 21:33:38,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261110_213426_machine_danger_perimeter.mp4
+2026-11-10 21:34:28,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.2s. Halting line.,clip_20261110_213456_machine_danger_perimeter.mp4
+2026-11-10 21:35:15,CAMERA EMERGENCY,CRITICAL EMERGENCY - SUDDEN FALL DETECTED: CRITICAL EMERGENCY: A person suddenly collapsed and fell to the floor. Possible medical emergency - siren activated and the security team has been alerted.,SPEAKER_AUDIO
+2026-11-10 21:35:20,CAMERA EMERGENCY,HEALTH WATCH - PERSON SLEEPING CONDITION: HEALTH EMERGENCY: A person has been lying motionless on the floor. Verify consciousness and call for help immediately.,SPEAKER_AUDIO
+2026-11-10 21:36:32,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261110_213655_machine_danger_perimeter.mp4
+2026-11-10 21:36:55,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 8.6s. Halting line.,clip_20261110_213722_machine_danger_perimeter.mp4
+2026-11-10 21:55:37,CAMERA EMERGENCY,CRITICAL EMERGENCY - SUDDEN FALL DETECTED: A person suddenly collapsed on the floor. Initiating emergency response.,SPEAKER_AUDIO
+2026-11-10 21:55:44,SIREN MUTED (AI CHAT),Siren muted for 2.0 min via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 21:55:44,SIREN UNMUTED (AI CHAT),User re-enabled the on-site siren via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 21:55:44,EMERGENCY SIREN (AI CHAT),User requested alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 21:55:36,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261110_215614_ppe_safety_vest_violatio.mp4
+2026-11-10 21:56:15,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.3s. Halting line.,clip_20261110_215643_machine_danger_perimeter.mp4
+2026-11-10 21:58:59,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Bottle'. Found 'Bottle' (Lower Center Area (X: 479, Y: 477)).",SPEAKER_AUDIO
+2026-11-10 21:57:35,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.3s. Halting line.,clip_20261110_215911_machine_danger_perimeter.mp4
+2026-11-10 21:59:40,SIREN SILENCED (AI CHAT),User silenced alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 21:59:40,SIREN SILENCED (AI CHAT),User silenced alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 21:59:40,SIREN MUTED (AI CHAT),Siren muted for 1.0 min via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 21:59:40,SIREN UNMUTED (AI CHAT),User re-enabled the on-site siren via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-10 22:03:25,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.3s. Halting line.,clip_20261110_220407_machine_danger_perimeter.mp4
+2026-11-10 22:05:41,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261110_220643_machine_danger_perimeter.mp4
+2026-11-10 22:06:44,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 17.4s. Halting line.,clip_20261110_220706_machine_danger_perimeter.mp4
+2026-11-11 19:55:58,EMERGENCY SIREN (AI CHAT),User requested alarm via Vision AI Chat.,SPEAKER_AUDIO
+2026-11-11 20:10:01,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-11 20:10:02,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-11 20:10:05,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-11 20:10:05,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-11 20:10:08,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-11 20:30:28,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:00. Plate: Unreadable captured at video time 00:00. Speed estimated from the car on-screen size (median of 3 samples: 12.3 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:30,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:01. Plate: Unreadable captured at video time 00:01. Speed estimated from the car on-screen size (median of 3 samples: 15.1 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:37,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 3.2 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:37,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 12.3 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:37,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 13.2 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:37,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 9.8 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:41,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:08. Plate: Unreadable captured at video time 00:08. Speed estimated from the car on-screen size (median of 3 samples: 10.1 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:45,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:11. Plate: Unreadable captured at video time 00:11. Speed estimated from the car on-screen size (median of 3 samples: 6.8 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:30:54,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:16. Plate: Unreadable captured at video time 00:16. Speed estimated from the car on-screen size (median of 3 samples: 13.9 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 20:31:01,UPLOADED VIDEO SPEED,Uploaded recording test_xuv300.mp4. Video time 00:21. Plate: Unreadable captured at video time 00:21. Speed estimated from the car on-screen size (median of 3 samples: 18.0 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:44:05,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261111_214446_machine_danger_perimeter.mp4
+2026-11-11 21:48:37,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:00. Plate: Unreadable captured at video time 00:00. Speed estimated from the car on-screen size (median of 3 samples: 12.3 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:48:39,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:01. Plate: Unreadable captured at video time 00:01. Speed estimated from the car on-screen size (median of 3 samples: 15.1 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:48:48,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 3.2 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:48:48,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 12.3 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:48:48,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 13.2 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:48:48,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 9.8 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:48:52,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:08. Plate: Unreadable captured at video time 00:08. Speed estimated from the car on-screen size (median of 3 samples: 10.1 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:48:57,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:11. Plate: Unreadable captured at video time 00:11. Speed estimated from the car on-screen size (median of 3 samples: 6.8 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:49:05,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:16. Plate: Unreadable captured at video time 00:16. Speed estimated from the car on-screen size (median of 3 samples: 13.9 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:49:12,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:21. Plate: Unreadable captured at video time 00:21. Speed estimated from the car on-screen size (median of 3 samples: 18.0 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-11 21:51:05,TELEGRAM OBJECT RETRIEVAL,"Client searched 'Hello'. Found 'Cell Phone' (Middle Left Area (X: 290, Y: 334)).",SPEAKER_AUDIO
+2026-11-11 21:46:54,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261111_215203_machine_danger_perimeter.mp4
+2026-11-11 21:52:20,CAMERA EMERGENCY,CRITICAL EMERGENCY - SUDDEN FALL DETECTED: CRITICAL EMERGENCY: A person suddenly collapsed and fell to the floor. Possible medical emergency - siren activated and the security team has been alerted.,SPEAKER_AUDIO
+2026-11-11 21:52:25,CAMERA EMERGENCY,HEALTH WATCH - PERSON SLEEPING CONDITION: HEALTH EMERGENCY: A person has been lying motionless on the floor. Verify consciousness and call for help immediately.,SPEAKER_AUDIO
+2026-11-12 10:48:01,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_104857_ppe_safety_vest_violatio.mp4
+2026-11-12 10:48:58,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_104933_ppe_safety_vest_violatio.mp4
+2026-11-12 10:50:44,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_105120_ppe_safety_vest_violatio.mp4
+2026-11-12 10:54:42,EMERGENCY SIREN,Emergency siren sounded via dashboard.,SPEAKER_AUDIO
+2026-11-12 10:54:47,SIREN SILENCED,Emergency siren silenced.,SPEAKER_AUDIO
+2026-11-12 11:54:32,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_115459_ppe_safety_vest_violatio.mp4
+2026-11-12 11:54:59,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_115519_ppe_safety_vest_violatio.mp4
+2026-11-12 12:06:17,VOICE INTERCOM,"Spoken on speaker: ""Warning: High-visibility safety vest is required in this facility immediately.""",SPEAKER_AUDIO
+2026-11-12 12:52:47,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_125612_ppe_safety_vest_violatio.mp4
+2026-11-12 13:48:32,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 2.0s. Halting line.,SPEAKER_AUDIO
+2026-11-12 13:48:35,CAMERA VIOLATION,Unmanned Billing Desk Alert: Billing desk vacant for 5.2s with 1 customer(s) waiting.,SPEAKER_AUDIO
+2026-11-12 13:48:32,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261112_134832_machine_danger_perimeter.mp4
+2026-11-12 13:48:35,Unmanned Billing Desk Alert,Billing desk vacant for 5.2s with 1 customer(s) waiting.,clip_20261112_134835_unmanned_billing_desk_al.mp4
+2026-11-12 13:49:18,CAMERA VIOLATION,Rapid Close-Proximity Motion: Rapid movement detected near another person; review footage to determine context.,SPEAKER_AUDIO
+2026-11-12 13:49:18,Rapid Close-Proximity Motion,Rapid movement detected near another person; review footage to determine context.,clip_20261112_134918_rapid_close_proximity_mo.mp4
+2026-11-12 13:50:32,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 2.2s. Halting line.,SPEAKER_AUDIO
+2026-11-12 13:50:35,CAMERA VIOLATION,Unmanned Billing Desk Alert: Billing desk vacant for 48.0s with 1 customer(s) waiting.,SPEAKER_AUDIO
+2026-11-12 13:50:32,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.2s. Halting line.,clip_20261112_135032_machine_danger_perimeter.mp4
+2026-11-12 13:50:35,Unmanned Billing Desk Alert,Billing desk vacant for 48.0s with 1 customer(s) waiting.,clip_20261112_135035_unmanned_billing_desk_al.mp4
+2026-11-12 13:52:07,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 13:52:07,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_135207_ppe_safety_vest_violatio.mp4
+2026-11-12 13:52:24,CAMERA VIOLATION,Rapid Close-Proximity Motion: Rapid movement detected near another person; review footage to determine context.,SPEAKER_AUDIO
+2026-11-12 13:52:32,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 11.3s. Halting line.,SPEAKER_AUDIO
+2026-11-12 13:52:24,Rapid Close-Proximity Motion,Rapid movement detected near another person; review footage to determine context.,clip_20261112_135224_rapid_close_proximity_mo.mp4
+2026-11-12 13:52:35,CAMERA VIOLATION,Unmanned Billing Desk Alert: Billing desk vacant for 12.7s with 1 customer(s) waiting.,SPEAKER_AUDIO
+2026-11-12 13:52:32,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 11.3s. Halting line.,clip_20261112_135232_machine_danger_perimeter.mp4
+2026-11-12 13:52:35,Unmanned Billing Desk Alert,Billing desk vacant for 12.7s with 1 customer(s) waiting.,clip_20261112_135235_unmanned_billing_desk_al.mp4
+2026-11-12 13:53:37,CAMERA VIOLATION,Shift Laziness / Sleeping on Duty: Staff sleeping on duty / prolonged slump (3.6s).,SPEAKER_AUDIO
+2026-11-12 13:53:43,CAMERA EMERGENCY,fall: CRITICAL EMERGENCY - SUDDEN FALL DETECTED: CRITICAL EMERGENCY: A person suddenly collapsed and fell to the floor. Possible medical emergency - siren activated and the security team has been alerted.,SPEAKER_AUDIO
+2026-11-12 13:53:37,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (3.6s).,clip_20261112_135337_shift_laziness_sleeping_.mp4
+2026-11-12 13:53:43,Sudden Fall and Emergency Collapse,Subject collapsed on floor in horizontal posture.,clip_20261112_135343_sudden_fall_and_emergenc.mp4
+2026-11-12 13:54:32,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 4.3s. Halting line.,SPEAKER_AUDIO
+2026-11-12 13:54:32,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 4.3s. Halting line.,clip_20261112_135432_machine_danger_perimeter.mp4
+2026-11-12 13:54:41,CAMERA VIOLATION,Unmanned Billing Desk Alert: Billing desk vacant for 5.0s with 1 customer(s) waiting.,SPEAKER_AUDIO
+2026-11-12 13:54:41,Unmanned Billing Desk Alert,Billing desk vacant for 5.0s with 1 customer(s) waiting.,clip_20261112_135441_unmanned_billing_desk_al.mp4
+2026-11-12 13:56:32,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 49.4s. Halting line.,SPEAKER_AUDIO
+2026-11-12 13:56:32,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 49.4s. Halting line.,clip_20261112_135632_machine_danger_perimeter.mp4
+2026-11-12 13:56:41,CAMERA VIOLATION,Unmanned Billing Desk Alert: Billing desk vacant for 22.9s with 1 customer(s) waiting.,SPEAKER_AUDIO
+2026-11-12 13:56:41,Unmanned Billing Desk Alert,Billing desk vacant for 22.9s with 1 customer(s) waiting.,clip_20261112_135641_unmanned_billing_desk_al.mp4
+2026-11-12 13:56:53,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 13:56:53,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_135653_ppe_safety_vest_violatio.mp4
+2026-11-12 13:57:14,CAMERA VIOLATION,Rapid Close-Proximity Motion: Rapid movement detected near another person; review footage to determine context.,SPEAKER_AUDIO
+2026-11-12 13:57:14,Rapid Close-Proximity Motion,Rapid movement detected near another person; review footage to determine context.,clip_20261112_135714_rapid_close_proximity_mo.mp4
+2026-11-12 13:58:22,CAMERA VIOLATION,Shift Laziness / Sleeping on Duty: Staff sleeping on duty / prolonged slump (3.5s).,SPEAKER_AUDIO
+2026-11-12 13:58:22,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (3.5s).,clip_20261112_135822_shift_laziness_sleeping_.mp4
+2026-11-12 13:58:47,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 2.0s. Halting line.,SPEAKER_AUDIO
+2026-11-12 13:58:53,CAMERA VIOLATION,Unmanned Billing Desk Alert: Billing desk vacant for 5.4s with 1 customer(s) waiting.,SPEAKER_AUDIO
+2026-11-12 13:58:47,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261112_135847_machine_danger_perimeter.mp4
+2026-11-12 13:58:53,Unmanned Billing Desk Alert,Billing desk vacant for 5.4s with 1 customer(s) waiting.,clip_20261112_135853_unmanned_billing_desk_al.mp4
+2026-11-12 13:59:13,CAMERA VIOLATION,PPE Safety Vest Violation: 2 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 13:59:13,PPE Safety Vest Violation,2 worker(s) missing high-vis safety vests.,clip_20261112_135913_ppe_safety_vest_violatio.mp4
+2026-11-12 14:00:36,CAMERA VIOLATION,Shift Laziness / Sleeping on Duty: Staff sleeping on duty / prolonged slump (3.6s).,SPEAKER_AUDIO
+2026-11-12 14:00:36,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (3.6s).,clip_20261112_140036_shift_laziness_sleeping_.mp4
+2026-11-12 14:00:59,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 2.0s. Halting line.,SPEAKER_AUDIO
+2026-11-12 14:00:59,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261112_140059_machine_danger_perimeter.mp4
+2026-11-12 14:01:13,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:01:13,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_140113_ppe_safety_vest_violatio.mp4
+2026-11-12 14:02:59,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 3.4s. Halting line.,SPEAKER_AUDIO
+2026-11-12 14:02:59,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 3.4s. Halting line.,clip_20261112_140259_machine_danger_perimeter.mp4
+2026-11-12 14:03:14,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:03:14,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_140314_ppe_safety_vest_violatio.mp4
+2026-11-12 14:04:59,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 25.5s. Halting line.,SPEAKER_AUDIO
+2026-11-12 14:04:59,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 25.5s. Halting line.,clip_20261112_140459_machine_danger_perimeter.mp4
+2026-11-12 14:05:14,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:05:14,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_140514_ppe_safety_vest_violatio.mp4
+2026-11-12 14:06:59,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 91.0s. Halting line.,SPEAKER_AUDIO
+2026-11-12 14:06:59,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 91.0s. Halting line.,clip_20261112_140659_machine_danger_perimeter.mp4
+2026-11-12 14:07:38,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:07:38,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_140738_ppe_safety_vest_violatio.mp4
+2026-11-12 14:08:24,VOICE INTERCOM,"Spoken on speaker: ""Warning: High-visibility safety vest is required in this facility immediately.""",SPEAKER_AUDIO
+2026-11-12 14:08:59,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 211.2s. Halting line.,SPEAKER_AUDIO
+2026-11-12 14:08:59,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 211.2s. Halting line.,clip_20261112_140859_machine_danger_perimeter.mp4
+2026-11-12 14:10:04,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:00. Plate: Unreadable captured at video time 00:00. Speed estimated from the car on-screen size (median of 3 samples: 12.3 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:05,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:01. Plate: Unreadable captured at video time 00:01. Speed estimated from the car on-screen size (median of 3 samples: 15.1 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:10,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 3.2 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:10,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 12.3 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:10,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 13.2 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:10,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:06. Plate: Unreadable captured at video time 00:06. Speed estimated from the car on-screen size (median of 3 samples: 9.8 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:13,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:08. Plate: Unreadable captured at video time 00:08. Speed estimated from the car on-screen size (median of 3 samples: 10.1 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:16,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:11. Plate: Unreadable captured at video time 00:11. Speed estimated from the car on-screen size (median of 3 samples: 6.8 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:23,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:16. Plate: Unreadable captured at video time 00:16. Speed estimated from the car on-screen size (median of 3 samples: 13.9 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:10:28,UPLOADED VIDEO SPEED,Uploaded recording vidssave.com __XUV 300__night out status video__#shots #subscribe #trending #vairal #bodybuilding #car #reels 720P.mp4. Video time 00:21. Plate: Unreadable captured at video time 00:21. Speed estimated from the car on-screen size (median of 3 samples: 18.0 km/h). OCR text is AI-generated and must be visually verified.,-
+2026-11-12 14:27:59,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:28:03,CAMERA VIOLATION,Shift Laziness / Sleeping on Duty: Staff sleeping on duty / prolonged slump (3.6s).,SPEAKER_AUDIO
+2026-11-12 14:27:59,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_142759_ppe_safety_vest_violatio.mp4
+2026-11-12 14:28:03,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (3.6s).,clip_20261112_142803_shift_laziness_sleeping_.mp4
+2026-11-12 14:28:22,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 2.0s. Halting line.,SPEAKER_AUDIO
+2026-11-12 14:28:22,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.0s. Halting line.,clip_20261112_142822_machine_danger_perimeter.mp4
+2026-11-12 14:28:58,CAMERA VIOLATION,Rapid Close-Proximity Motion: Rapid movement detected near another person; review footage to determine context.,SPEAKER_AUDIO
+2026-11-12 14:28:58,Rapid Close-Proximity Motion,Rapid movement detected near another person; review footage to determine context.,clip_20261112_142858_rapid_close_proximity_mo.mp4
+2026-11-12 14:30:02,CAMERA EMERGENCY,fall: CRITICAL EMERGENCY - SUDDEN FALL DETECTED: CRITICAL EMERGENCY: A person suddenly collapsed and fell to the floor. Possible medical emergency - siren activated and the security team has been alerted.,SPEAKER_AUDIO
+2026-11-12 14:30:03,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:30:03,CAMERA VIOLATION,Shift Laziness / Sleeping on Duty: Staff sleeping on duty / prolonged slump (31.0s).,SPEAKER_AUDIO
+2026-11-12 14:30:08,CAMERA EMERGENCY,sleeping: HEALTH WATCH - PERSON SLEEPING CONDITION: HEALTH EMERGENCY: A person has been lying motionless on the floor. Verify consciousness and call for help immediately.,SPEAKER_AUDIO
+2026-11-12 14:30:02,Sudden Fall and Emergency Collapse,Subject collapsed on floor in horizontal posture.,clip_20261112_143002_sudden_fall_and_emergenc.mp4
+2026-11-12 14:30:03,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_143003_ppe_safety_vest_violatio.mp4
+2026-11-12 14:30:03,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (31.0s).,clip_20261112_143003_shift_laziness_sleeping_.mp4
+2026-11-12 14:30:08,Person Sleeping Condition,HEALTH EMERGENCY: A person has been lying motionless on the floor. Verify consciousness and call for help immediately.,clip_20261112_143008_person_sleeping_conditio.mp4
+2026-11-12 14:32:44,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:32:47,CAMERA EMERGENCY,fall: CRITICAL EMERGENCY - SUDDEN FALL DETECTED: CRITICAL EMERGENCY: A person suddenly collapsed and fell to the floor. Possible medical emergency - siren activated and the security team has been alerted.,SPEAKER_AUDIO
+2026-11-12 14:32:48,CAMERA VIOLATION,Shift Laziness / Sleeping on Duty: Staff sleeping on duty / prolonged slump (3.6s).,SPEAKER_AUDIO
+2026-11-12 14:32:44,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_143244_ppe_safety_vest_violatio.mp4
+2026-11-12 14:32:47,Sudden Fall and Emergency Collapse,Subject collapsed on floor in horizontal posture.,clip_20261112_143247_sudden_fall_and_emergenc.mp4
+2026-11-12 14:32:48,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (3.6s).,clip_20261112_143248_shift_laziness_sleeping_.mp4
+2026-11-12 14:32:57,CAMERA EMERGENCY,sleeping: HEALTH WATCH - PERSON SLEEPING CONDITION: HEALTH EMERGENCY: A person has been lying motionless on the floor. Verify consciousness and call for help immediately.,SPEAKER_AUDIO
+2026-11-12 14:32:57,Person Sleeping Condition,HEALTH EMERGENCY: A person has been lying motionless on the floor. Verify consciousness and call for help immediately.,clip_20261112_143257_person_sleeping_conditio.mp4
+2026-11-12 14:34:54,CAMERA VIOLATION,PPE Safety Vest Violation: 1 worker(s) missing high-vis safety vests.,SPEAKER_AUDIO
+2026-11-12 14:34:54,PPE Safety Vest Violation,1 worker(s) missing high-vis safety vests.,clip_20261112_143454_ppe_safety_vest_violatio.mp4
+2026-11-12 14:39:12,CAMERA VIOLATION,Shift Laziness / Sleeping on Duty: Staff sleeping on duty / prolonged slump (3.6s).,SPEAKER_AUDIO
+2026-11-12 14:39:12,Shift Laziness / Sleeping on Duty,Staff sleeping on duty / prolonged slump (3.6s).,clip_20261112_143912_shift_laziness_sleeping_.mp4
+2026-11-12 14:39:34,CAMERA VIOLATION,Unmanned Billing Desk Alert: Billing desk vacant for 5.0s with 1 customer(s) waiting.,SPEAKER_AUDIO
+2026-11-12 14:39:38,CAMERA VIOLATION,Machine Danger Perimeter Breach: 1 subject(s) in hazard zone for 2.1s. Halting line.,SPEAKER_AUDIO
+2026-11-12 14:39:34,Unmanned Billing Desk Alert,Billing desk vacant for 5.0s with 1 customer(s) waiting.,clip_20261112_143934_unmanned_billing_desk_al.mp4
+2026-11-12 14:39:38,Machine Danger Perimeter Breach,1 subject(s) in hazard zone for 2.1s. Halting line.,clip_20261112_143938_machine_danger_perimeter.mp4
