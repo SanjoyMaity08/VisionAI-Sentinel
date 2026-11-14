@@ -1,0 +1,12 @@
+License-plate detector weights attribution
+
+Model: YOLO11n license-plate detector (weights/best.pt)
+Source: https://github.com/Mrvikas06/License-Plate-Detection
+Pinned source revision: 335cb92d92facf873c5b670a9dc5456e504757aa
+Source repository license: MIT (see the repository LICENSE file).
+The repository describes the training dataset as Roboflow Universe:
+rayans-lab/license-plate-detection-9vgdz/11. Dataset terms may differ from
+the repository software license and were not independently verified.
+
+The model is provided as-is. Plate localization and OCR are fallible; verify
+recognized characters against the uploaded footage before taking action.
